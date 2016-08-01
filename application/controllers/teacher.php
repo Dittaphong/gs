@@ -12,9 +12,9 @@ class Teacher extends CI_Controller {
 		$this->load->view('teacher/authen');
 	}
 
-	public function infomationTeacher()
-	{	
-		$this->load->view('teacher/infomationTeacher');
+	public function informationTeacher()
+	{
+		$this->load->view('teacher/informationTeacher');
 	}
 
 }
