@@ -7,6 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="KingAdmin - Bootstrap Admin Dashboard Theme">
 	<meta name="author" content="The Develovers">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="<?php echo base_url();?>assets/img/favicon.ico"> 
+
 	<!-- CSS -->
 	<link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url();?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -18,7 +21,7 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>assets/ico/kingadmin-favicon114x114.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>assets/ico/kingadmin-favicon72x72.png">
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo base_url();?>assets/ico/kingadmin-favicon57x57.png">
-	<link rel="shortcut icon" href="<?php echo base_url();?>assets/ico/favicon.png">
+	
 </head>
 
 <body class="dashboard">
@@ -29,8 +32,8 @@
 			<div class="container">
 				<div class="row">
 					<!-- logo -->
-					<div class="col-md-2 logo">
-						<a href="index.html">ระบบนักศึกษา</a> 
+					<div class="col-md-2 logo" style="margin-top:-5px;">
+						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;"><?php echo $title; ?></b></a> 
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
@@ -103,43 +106,46 @@
 		<div class="bottom">
 			<div class="container">
 				<div class="row">
-					<!-- left sidebar -->
-					<br>
-					<div class="col-md-2 left-sidebar">
-						<div class="sidebar-minified js-toggle-minified">
-						<i class="fa fa-angle-left"></i>
-						</div>
+					<!-- left sidebar --> 
+					<div class="col-md-2 left-sidebar"> 
 						<!-- main-nav -->
 						<nav class="main-nav">
 							<ul class="main-menu">
 								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-home fa-fw"></i><span class="text">HOME</span> 
-										</a>
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
 								</li>
-								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span> 
-									</a>
+								<li >
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span></a>
 								</li>
-								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span> 
-									</a>
+								<li >
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอแต่งตั้งอาจารย์ที่ปรึกษา</span></a>
 								</li>
-
+								<li >
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
+								</li> 
+								<li >
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+								</li> 
+								<li >
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอจบ</span></a>
+								</li> 
 							</ul>
 						</nav>
-						<!-- /main-nav -->
+						<!-- /main-nav --> 
+						<!-- <i class="fa fa-angle-left js-toggle-minified"></i>  -->
 				
 					</div>
 					<!-- end left sidebar -->
 					<!-- content-wrapper -->
-					<div class="col-md-10 content-wrapper" style="margin-top:-18px"> 
+					<div class="col-md-10 content-wrapper" > 
 						<div class="row" >
-							<div class="col-md-4 ">
+							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><i class="fa fa-home"></i><a href="#">Home</a></li>
 									<li class="active">Dashboard</li>
 								</ul>
 							</div>
+							<div class="col-md-12" style="margin-top:-30px;"><hr></div>
 						
 						</div>
 						<!-- main -->

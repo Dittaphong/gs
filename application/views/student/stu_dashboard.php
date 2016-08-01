@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-md-2 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
-				<span>CE/QE</span>
+				<span>ขอสอบ CE/QE</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">3</i></div>
@@ -79,15 +79,65 @@
 	<div class="row" style="text-align:left;margin-top:5%">
 		
 		<div class="col-md-6 col-sm-12 " >
-			<div class="panel panel-default" style="height:250px;padding:5px;"> 
-				<div class="panel-heading" >ภาคนิพนธ์</div>
+			<div class="panel panel-default" style="height:450px;padding:5px;"> 
+				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp;ภาคนิพนธ์</div>
+				<table  border="0" width="100%">
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (TH) :</p></td>
+					<td align="left">
+						<p style="padding: 5px;text-align:right;">
+							<button type="button" class="btn btn-danger">ส่งหัวข้อภาคนิพนธ์</button>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (EN) :</p></td>
+					<td align="left"><p style="padding: 5px;">  </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">รายละเอียด :</p></td>
+					<td align="left"><p style="padding: 5px;"> </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">ผลงานวิจัย :</p></td>
+					<td align="left"><p style="padding: 5px;"> </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;"><br></p></td>
+					<td align="left"><p style="padding: 5px;"> </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">วันส่งเล่มสมบูรณ์ :</p></td>
+					<td align="left"><p style="padding: 5px;"> </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">สถานะการส่งเล่ม :</p></td>
+					<td align="left"><p style="padding: 5px;"> </p></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาหลัก :</p></td>
+					<td align="left">
+						<p style="padding: 5px;text-align:right;">
+							<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาหลัก</button>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาร่วม :</p></td>
+					<td align="left">
+						<p style="padding: 5px;text-align:right;">
+							<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาร่วม</button>
+						</p>
+					</td>
+				</tr>
+			</table>
 
 			</div>
 		</div>
 
 		<div class="col-md-6 col-sm-12 " >
-			<div class="panel panel-default" style="height:250px;padding:5px;"> 
-				<div class="panel-heading" >ข่าวสารข้อมูล</div>
+			<div class="panel panel-default" style="height:450px;padding:5px;"> 
+				<div class="panel-heading" ><i class="glyphicon glyphicon-tags"></i>&nbsp;&nbsp;ข่าวสารข้อมูล </div>
 				
 			</div>
 		</div> 
