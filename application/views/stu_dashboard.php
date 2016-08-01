@@ -1,14 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>STUDEN DASHBOARD</title>
-</head>
-<body>
+?>
+  <?php $this->load->view('header'); ?>
 
-<div id="container">
-	<h1>STUDEN DASHBOARD</h1> 
-</body>
-</html>
+							<div class="main-header">
+								<h2>ระบบสารสนเทศนักศึกษา</h2>
+							</div>
+							<div class="main-content">
+								<div class="row">
+									<div class="col-md-9">
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- /main-content -->
+						
+<?php  $this->load->view('footer'); ?>
