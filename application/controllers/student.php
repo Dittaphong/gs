@@ -5,7 +5,8 @@ class Student extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('student/stu_dashboard');
+		$this->data['title']='ระบบสารสนเทศนักศึกษา';
+		$this->load->view('student/stu_dashboard',$this->data);
 	} 
 
 	public function dashboard(){

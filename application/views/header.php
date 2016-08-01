@@ -30,21 +30,12 @@
 				<div class="row">
 					<!-- logo -->
 					<div class="col-md-2 logo">
-						<a href="index.html">ระบบนักศึกษา</a>
-						<h1 class="sr-only">ระบบนักศึกษา</h1>
+						<a href="index.html">ระบบนักศึกษา</a> 
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
 						<div class="row">
-							<div class="col-md-3">
-								<!-- search box -->
-								<div id="tour-searchbox" class="input-group searchbox">
-									<input type="search" class="form-control" placeholder="enter keyword here...">
-									<span class="input-group-btn">
-										<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-									</span>
-								</div>
-								<!-- end search box -->
+							<div class="col-md-3"> 
 							</div>
 							<div class="col-md-9">
 								<div class="top-bar-right">
@@ -53,10 +44,10 @@
 									<!-- end responsive menu bar icon -->
 									
 									<button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i></button>
-									<div class="notifications">
+									<!-- <div class="notifications">
 										<ul>
 											<!-- notification: inbox -->
-											<li class="notification-item inbox">
+											<!-- <li class="notification-item inbox">
 												<div class="btn-group">
 													<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 														<i class="fa fa-envelope"></i><span class="count">2</span>
@@ -70,13 +61,13 @@
 												</div>
 											</li>
 
-										</ul>
-									</div>
+										</ul>  
+									</div> -->
 						
 									<div class="logged-user">
 										<div class="btn-group">
 											<a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-												<img src="assets/img/user-avatar.png" alt="User Avatar" />
+												<img src="<?php echo base_url();?>assets/img/user-avatar.png" alt="User Avatar"/>
 												<span class="name">นายทดสอบ ใจดีมาก</span> <span class="caret"></span>
 											</a>
 											<ul class="dropdown-menu" role="menu">
@@ -85,13 +76,7 @@
 														<i class="fa fa-user"></i>
 														<span class="text">Profile</span>
 													</a>
-												</li>
-												<li>
-													<a href="#">
-														<i class="fa fa-cog"></i>
-														<span class="text">Settings</span>
-													</a>
-												</li>
+												</li> 
 												<li>
 													<a href="#">
 														<i class="fa fa-power-off"></i>
@@ -128,19 +113,16 @@
 						<nav class="main-nav">
 							<ul class="main-menu">
 								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-home fa-fw"></i><span class="text">HOME</span>
-									<i class="toggle-icon fa fa-angle-down"></i>
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-home fa-fw"></i><span class="text">HOME</span> 
 										</a>
 								</li>
 								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span>
-									<i class="toggle-icon fa fa-angle-down"></i>
-										</a>
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span> 
+									</a>
 								</li>
 								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span>
-									<i class="toggle-icon fa fa-angle-down"></i>
-										</a>
+									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span> 
+									</a>
 								</li>
 
 							</ul>
@@ -150,9 +132,8 @@
 					</div>
 					<!-- end left sidebar -->
 					<!-- content-wrapper -->
-					<div class="col-md-10 content-wrapper">
-				
-						<div class="row">
+					<div class="col-md-10 content-wrapper" style="margin-top:-18px"> 
+						<div class="row" >
 							<div class="col-md-4 ">
 								<ul class="breadcrumb">
 									<li><i class="fa fa-home"></i><a href="#">Home</a></li>
