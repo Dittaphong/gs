@@ -58,26 +58,26 @@
 		</div>
 		<!-- <div class="col-sm-12 "> -->
 		<div class="col-sm-6 pull-left ">
-			<h3>ที่ปรึกษาหลัก</h3>
+			<h3><u>ที่ปรึกษาหลัก</u></h3>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<hr>
-			<h3>ที่ปรึกษาร่วม</h3>
+			<h3><u>ที่ปรึกษาร่วม</u></h3>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
 		</div>
 		<div class="col-sm-6 pull-right ">
-			<h3>ที่ปรึกษาหลัก</h3>
+			<h3><u>ข้อมุลการแต่งตั้ง</u></h3>
 			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
 			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
 			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
 			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
 			<hr>
-			<h3>ข้อมูลทั่วไป</h3>
+			<h3><u>ข้อมูลทั่วไป</u></h3>
 		</div>
 		<!-- </div> -->
 	</div>

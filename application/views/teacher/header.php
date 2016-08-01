@@ -11,15 +11,15 @@
 		<div class="row">
 		<br>
 		<div class="col-sm-12">
-	<div class="col-sm-2  pull-left"> <!-- menu left -->
-		<div class="panel panel-success">
-			<div class="panel-heading">เมนู</div>
-			<div class="panel-body">
-				<div class="btn btn-primary col-sm-12">หน้าหลัก</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ภาระงาน</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหานักศึกษา</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหาภาคนิพนธ์</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหางานวิจัย</div>
+			<div class="col-sm-2  pull-left"> <!-- menu left -->
+				<div class="panel panel-success">
+					<div class="panel-heading">เมนู</div>
+					<div class="panel-body">
+						<div ><?php echo anchor('teacher/index','หน้าหลัก','class="btn btn-primary col-sm-12"');?></div>	<br><br>
+						<div ><?php echo anchor('teacher/loadWork','ภาระงาน','class="btn btn-primary col-sm-12"');?></div>	<br><br>
+						<div ><?php echo anchor('teacher/searchStudent','ค้นหานักศึกษา','class="btn btn-primary col-sm-12"');?></div>	<br><br>
+						<div ><?php echo anchor('teacher/searchPaper','ค้นหาภาคนิพนธ์','class="btn btn-primary col-sm-12"');?></div>	<br><br>
+						<div ><?php echo anchor('#','ค้นหางานวิจัย','class="btn btn-primary col-sm-12"');?></div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>

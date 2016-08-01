@@ -1,5 +1,5 @@
 <?php $this->load->view('teacher/header'); ?>
-<div class="col-sm-12">
+<div class="col-sm-10">
 	<div class="panel panel-success">
 		<div class="panel-heading">Authen Professer</div>
 		<div class="panel-body">
