@@ -1,17 +1,5 @@
 <?php $this->load->view('teacher/header'); ?>
-<div class="col-sm-12">
-	<div class="col-sm-2  pull-left"> <!-- menu left -->
-		<div class="panel panel-success">
-			<div class="panel-heading">เมนู</div>
-			<div class="panel-body">
-				<div class="btn btn-primary col-sm-12">หน้าหลัก</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ภาระงาน</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหานักศึกษา</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหาภาคนิพนธ์</div>	<br><br>
-				<div class="btn btn-primary col-sm-12">ค้นหางานวิจัย</div>
-			</div>
-		</div>
-	</div>
+
 	<div class="col-sm-10 pull-right">    <!-- div body pull- right -->
 		<div class="col-sm-12 well">
 			<div class="col-sm-2">
@@ -93,5 +81,4 @@
 		</div>
 		<!-- </div> -->
 	</div>
-</div>
 <?php $this->load->view('teacher/footer'); ?>
