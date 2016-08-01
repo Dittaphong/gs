@@ -262,7 +262,7 @@ $config['log_file_permissions'] = 0644;
 |
 */
 $config['log_date_format'] = 'Y-m-d H:i:s';
-
+$config['dt_now'] = 'd-m-Y H:i';
 /*
 |--------------------------------------------------------------------------
 | Error Views Directory Path
