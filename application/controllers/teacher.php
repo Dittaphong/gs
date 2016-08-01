@@ -22,6 +22,11 @@ class Teacher extends CI_Controller {
 		$this->load->view('teacher/searchStudent');
 	}
 
+	public function searchJournal()
+	{
+		$this->load->view('teacher/searchJournal');
+	}
+
 }
 
 /* End of file teacher.php */
