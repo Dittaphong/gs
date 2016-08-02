@@ -5,7 +5,7 @@
 		<div class="panel-body">
 			<div class="col-sm-12">
 				<?php echo anchor('teacher/authen', 'teacherAuthen','class="btn btn-primary col-sm-4"'); ?>
-
+				<div class="col-sm-1"></div>
 				<?php echo anchor('teacher/informationTeacher', 'สารสนเทศอาจารย์','class="btn btn-primary col-sm-4"'); ?>
 			</div>
 		</div>

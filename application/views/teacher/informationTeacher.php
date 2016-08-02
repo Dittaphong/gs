@@ -1,84 +1,130 @@
 <?php $this->load->view('teacher/header'); ?>
 
-	<div class="col-sm-12 ">    <!-- div body pull- right -->
-		<div class="col-sm-12 well">
-			<div class="col-sm-2">
-				<div class="thumbnail">
-					<img alt=""  src="<?php echo base_url().'assets/img/profile-avatar.png';?>" data-holder-rendered="true" style=" display: block;">
-				</div>
-			</div>
-			<div class="col-sm-5 ">
-				<div class="form-horizontal ">
-					<div class="form-group">
-						<label class="col-sm-5 text-right" for="inputEmail1">รหัส :</label>
-						<div class="col-sm-5"><label  for="inputPassword1">399991911</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-5 text-right" for="inputPassword1">ชื่อ-สกุล(ภาษาไทย): </label>
-						<div class="col-sm-5"><label  for="inputPassword1">นาย สมชาย ใจดีมาก</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-5 text-right" for="inputPassword1">ภาควิชา/สาขา: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">เทคโนโลยีการศึกษา</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-5 text-right" for="inputPassword1">จำนวนภาระกิจ: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">13</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-5 text-right" for="inputPassword1">ที่ปรึกษาร่วม: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">3</label></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-5 ">
-				<div class="form-horizontal ">
-					<div class="form-group">
-						<label class="col-sm-6 text-right" for="inputEmail1">ระดับการศึกษา :</label>
-						<div class="col-sm-5"><label  for="inputPassword1">................................</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-6 text-right" for="inputPassword1">ชื่อ-สกุล(ภาษาอังกฤษ): </label>
-						<div class="col-sm-5"><label  for="inputPassword1">Somchai Jaidemark</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-6 text-right" for="inputPassword1">คะณ: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">ศึกษาศาสตร์</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-6 text-right" for="inputPassword1">ที่ปรึกษาหลัก: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">10</label></div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-6 text-right" for="inputPassword1">อนุมัติเกินจำนวน: </label>
-						<div class="col-sm-5"><label  for="inputPassword1">อนุมัติเกินจำนวน</label></div>
-					</div>
-				</div>
-			</div>
+<div class="col-sm-12 ">    <!-- div body pull- right -->
+	<div class="col-sm-12 well">
+		<div class="col-md-2 col-sm-4" style="text-align:center;">
+			<p style="padding: 10px;">
+				<img alt="" width="100%"  src="<?php echo base_url().'assets/img/profile-studen.png';?>" data-holder-rendered="true" style=" display: block;">
+			</p>
 		</div>
-		<!-- <div class="col-sm-12 "> -->
-		<div class="col-sm-6 pull-left ">
-			<h3><u>ที่ปรึกษาหลัก</u></h3>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<hr>
-			<h3><u>ที่ปรึกษาร่วม</u></h3>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
-			<p>1.นาย xxxxx xxxxxx คณะวิทยาศาสตร์  กำลังศึกษา 2558</p>
+		<div class="col-md-5 col-sm-12" >
+			<table border="0" width="100%">
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">รหัส :</p></td>
+					<td align="left"><p style="padding: 5px;">399991911</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ชื่อ-สกุล (ภาษาไทย) :</p></td>
+					<td align="left"><p style="padding: 5px;">นายสมชาย ใจดีมาก</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ภาควิชา/สาขา :</p></td>
+					<td align="left"><p style="padding: 5px;">เทคโนโลยีการศึกษา</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">จำนวนภาระกิจ :</p></td>
+					<td align="left"><p style="padding: 5px;">13</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ที่ปรึกษาร่วม :</p></td>
+					<td align="left"><p style="padding: 5px;">3</p></td>
+				</tr>
+			</table>
 		</div>
-		<div class="col-sm-6 pull-right ">
-			<h3><u>ข้อมุลการแต่งตั้ง</u></h3>
-			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
-			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
-			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
-			<p>1.นาย xxxxx xxxxxx ขอแต่งตั้ง เป็นที่ปรึกษา <button type="button" class="btn btn-primary  btn-xs pull-right">ยืนยัน</button></p>
-			<hr>
-			<h3><u>ข้อมูลทั่วไป</u></h3>
+		<div class="col-md-5 col-sm-12" >
+			<table  border="0" width="100%">
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ระดับการศึกษา :</p></td>
+					<td align="left"><p style="padding: 5px;"></p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
+					<td align="left"><p style="padding: 5px;">Somchai Jaidemark</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">คณะ :</p></td>
+					<td align="left"><p style="padding: 5px;">ศึกษาศาสตร์</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">ที่ปรึกษาหลัก :</p></td>
+					<td align="left"><p style="padding: 5px;">10</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;">อนุมัติเกินจำนวน :</p></td>
+					<td align="left"><p style="padding: 5px;">อนุมัติเกินจำนวน</p></td>
+				</tr>
+			</table>
 		</div>
-		<!-- </div> -->
 	</div>
+	<div class="row" style="text-align:left;margin-top:5%">
+
+		<div class="col-md-6 col-sm-12 " >
+			<div class="panel panel-default" style="height:450px;padding:5px;">
+				<div class="panel-heading" ><i class="fa fa-user"></i>&nbsp;&nbsp;อาจารย์ที่ปรึกษาหลัก</div>
+				<table  border="0" width="100%" class="table-hover">
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+					</tr>
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+					</tr>
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-sm-12 " >
+			<div class="panel panel-default" style="height:450px;padding:5px;">
+				<div class="panel-heading" ><i class="fa fa-file-text"></i>&nbsp;&nbsp;ข้อมูลการแต่งตั้ง</div>
+				<table  border="0" width="100%" class="table-hover">
+					<tr>
+						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx ขอแต่งตั้ง เป็นที่ปรึกษาหลัก</p></td>
+						<td align="right" width="30%"><p style="padding:1px;"><button type="button" class="btn btn-primary btn-xs">ยืนยัน</button></p></td>
+					</tr>
+					<tr>
+						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx ขอแต่งตั้ง เป็นที่ปรึกษาหลัก</p></td>
+						<td align="right" width="30%"><p style="padding:1px;"><button type="button" class="btn btn-primary btn-xs">ยืนยัน</button></p>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx ขอแต่งตั้ง เป็นที่ปรึกษาหลัก</p></td>
+						<td align="right" width="30%"><p style="padding:1px;"><button type="button" class="btn btn-primary btn-xs">ยืนยัน</button></p></td>
+					</tr>
+					<tr>
+						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx ขอแต่งตั้ง เป็นที่ปรึกษาหลัก</p></td>
+						<td align="right" width="30%"><p style="padding:1px;"><button type="button" class="btn btn-primary btn-xs">ยืนยัน</button></p></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-sm-12 " >
+			<div class="panel panel-default" style="height:450px;padding:5px;">
+				<div class="panel-heading" ><i class="fa fa-group"></i>&nbsp;&nbsp;อาจารย์ที่ปรึกษาร่วม</div>
+				<table  border="0" width="100%" class="table-hover">
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+					</tr>
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+					</tr>
+					<tr>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx คณะวิทยาศาสตร์ กำลังศึกษา 2558</p></td>
+
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-sm-12 " >
+			<div class="panel panel-default" style="height:450px;padding:5px;">
+				<div class="panel-heading" ><i class="glyphicon glyphicon-tags"></i>&nbsp;&nbsp;ข้อมูลทั่วไป </div>
+
+			</div>
+		</div>
+	</div>
+</div>
 <?php $this->load->view('teacher/footer'); ?>
