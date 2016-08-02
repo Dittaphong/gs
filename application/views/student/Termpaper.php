@@ -53,7 +53,7 @@
 			<div class="col-md-1"></div>
 			<div class="col-md-3 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">1</i></div>
-				<span>ส่งหัวข้อภาคนิพนธ์</span>
+				<span>หัวข้อภาคนิพนธ์</span>
 			</div>
 			<div class="col-md-4 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
@@ -61,7 +61,7 @@
 			</div>
 			<div class="col-md-3 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >3</i></div>
-				<span>ยื่นหัวข้อภาคนิพนธ์</span>
+				<span>ยื่นยันข้อมูล</span>
 			</div>  
 			<div class="col-md-1"></div>
 		</div>

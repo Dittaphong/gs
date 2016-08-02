@@ -69,25 +69,36 @@
 	<div class="row" style="text-align:left;margin-top:5%"> 
 		<div class="col-md-12 col-sm-12 " >
 			<div class="panel panel-default" style="height:340px;padding:5px;"> 
-				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา</div>
+				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ยื่นหัวข้อภาคนิพนธ์</div>
 				<br>   
-				<div class="col-sm-12" style="margin-top:10px;">
-					<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาหลัก </label>
-					<div class="col-sm-8">
-						<input type="text" class="form-control col-md-12" id="address" placeholder="ค้นหา...">
+				<div class="col-sm-12" style="margin-top:10px;"> 
+					<div class="col-sm-3" style="text-align:left;">หัวข้อภาษาไทย </div>
+					<div class="col-sm-8 col-sm-6 ">
+						 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 					</div>
 				</div>  
 				<div class="col-sm-12" style="margin-top:10px;">
-					<label for="email" class="col-sm-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาร่วม </label>
-					<div class="col-sm-8">
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<i class="glyphicon glyphicon-plus-sign" style="font-size:30px;color:#8A0808;"></i>
+					<div class="col-sm-3" style="text-align:left;">หัวข้อภาษาอังกฤษ </div>
+					<div class="col-sm-8 col-sm-6">
+						XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+					</div>
+				</div>   
+				<div class="col-sm-12" style="margin-top:10px;"> 
+					<div class="col-sm-3" style="text-align:left;">อาจารย์ที่ปรึกษาหลัก </div>
+					<div class="col-sm-8 col-sm-6">
+						XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+					</div>
+				</div>  
+				<div class="col-sm-12" style="margin-top:10px;"> 
+					<div class="col-sm-3" style="text-align:left;">อาจารย์ที่ปรึกษาร่วม </div>
+					<div class="col-sm-8 col-sm-6">
+						XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br>
+						XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br>
+						XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br> 
 					</div>
 				</div>   
 				<div class="col-sm-12" style="text-align:center;"><br>
-					<button type="submit" class="btn btn-primary btn-sm">ยื่นขอแต่งตั้งอาจารย์ที่ปรึกษา</button>
+					<button type="submit" class="btn btn-primary btn-sm">ยืนยันข้อมูลเพื่อบันทึก</button>
 					<br>
 				</div> 
 			</div>

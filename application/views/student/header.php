@@ -45,7 +45,7 @@
 									<a href="#" class="hidden-md hidden-lg main-nav-toggle"><i class="fa fa-bars"></i></a>
 									<!-- end responsive menu bar icon -->
 									
-									<button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i></button> 
+									<!-- <button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i></button>  -->
 									<div class="logged-user">
 										<div class="btn-group">
 											<a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
@@ -90,23 +90,29 @@
 						<!-- main-nav -->
 						<nav class="main-nav">
 							<ul class="main-menu">
-								<li class="active">
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
+								<li <?php echo $menuactive=='1' ? 'class="active"':'' ;?> >
+									<a href="<?php echo base_url();?>index.php/student/" >
+									<i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
 								</li>
-								<li >
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span></a>
+								<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
+									<a href="<?php echo base_url();?>index.php/student/ceqe/" >
+									<i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span></a>
 								</li>
-								<li >
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอแต่งตั้งอาจารย์ที่ปรึกษา</span></a>
+								<li <?php echo $menuactive=='3' ? 'class="active"':'' ;?>>
+									<a href="<?php echo base_url();?>index.php/student/termpaper/" >
+									<i class="fa fa-th-list fa-fw"></i><span class="text">ยื่นหัวข้อภาคนิพนธ์</span></a>
 								</li>
-								<li >
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
+								<li <?php echo $menuactive=='4' ? 'class="active"':'' ;?>>
+									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
 								</li> 
-								<li >
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+								<li <?php echo $menuactive=='5' ? 'class="active"':'' ;?>>
+									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบวิทยานิพนธ์</span></a>
 								</li> 
-								<li >
-									<a href="#" class="js-sub-menu-toggle"><i class="fa fa-th-list fa-fw"></i><span class="text">ขอจบ</span></a>
+								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
+									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+								</li> 
+								<li <?php echo $menuactive=='7' ? 'class="active"':'' ;?>>
+									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอจบ</span></a>
 								</li> 
 							</ul>
 						</nav>
