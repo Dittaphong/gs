@@ -33,7 +33,7 @@
 				<div class="row">
 					<!-- logo -->
 					<div class="col-md-2 logo" style="margin-top:-5px;">
-						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;"><?php echo $title; ?></b></a>
+						<a href="#"><b style="color:#F2F2F2;font-size:16px;"><?php echo $title; ?></b></a>
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
