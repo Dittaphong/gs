@@ -1,4 +1,4 @@
-<?php $this->load->view('student/header'); ?>
+<?php $this->load->view('/student/Header'); ?>
 	<div class="row" >  
 		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
 			<p style="padding: 10px;">
@@ -91,4 +91,4 @@
 			</div>
 		</div> 
 	</div>
-<?php $this->load->view('student/footer'); ?>   
+<?php $this->load->view('/student/Footer'); ?> 
