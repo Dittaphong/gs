@@ -8,8 +8,8 @@
 		<div class="col-md-5 col-sm-12" >
 			<table border="0" width="100%">
 				<tr>
-					<td align="right" width="50%"><p ">รหัส :</p></td>
-					<td align="left"><p >59123435678</p></td>
+					<td align="right" width="50%"><p style="padding-right: 3px;">รหัส :</p></td>
+					<td align="left"><p style="padding: 3px;">59123435678</p></td>
 				</tr>
 				<tr>
 					<td align="right" width="50%"><p style="padding-right: 3px;">ชื่อ-สกุล (ภาษาไทย) :</p></td>
@@ -24,7 +24,7 @@
 					<td align="left"><p style="padding: 3px;">กำลังศึกษา</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding-right: 5px;">วันเข้าศึกษา :</p></td>
+					<td align="right" width="50%"><p style="padding-right: 3px;">วันเข้าศึกษา :</p></td>
 					<td align="left"><p style="padding: 3px;">16/07/2559</p></td>
 				</tr>
 			</table>
@@ -32,20 +32,20 @@
 		<div class="col-md-5 col-sm-12" >
 			<table  border="0" width="100%">
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ระดับการศึกษา :</p></td>
-					<td align="left"><p style="padding: 5px;">ปริญญาโท</p></td>
+					<td align="right" width="50%"><p style="padding: 3px;">ระดับการศึกษา :</p></td>
+					<td align="left"><p style="padding: 3px;">ปริญญาโท</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
-					<td align="left"><p style="padding: 5px;">Somchai Jaidemark</p></td>
+					<td align="right" width="50%"><p style="padding: 3px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
+					<td align="left"><p style="padding: 3px;">Somchai Jaidemark</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">คณะ :</p></td>
-					<td align="left"><p style="padding: 5px;">ศึกษาศาสตร์</p></td>
+					<td align="right" width="50%"><p style="padding: 3px;">คณะ :</p></td>
+					<td align="left"><p style="padding: 3px;">ศึกษาศาสตร์</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ภาษาต่างประเทศ :</p></td>
-					<td align="left"><p style="padding: 5px;">ผ่าน</p></td>
+					<td align="right" width="50%"><p style="padding: 3px;">ภาษาต่างประเทศ :</p></td>
+					<td align="left"><p style="padding: 3px;">ผ่าน</p></td>
 				</tr>
 			</table>
 		</div>

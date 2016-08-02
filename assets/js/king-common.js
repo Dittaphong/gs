@@ -464,7 +464,7 @@ $(document).ready(function(){
 		}
 	}
 
-	kingTour.init();
+	//kingTour.init();
 
 	$('#start-tour').click( function() {
 		if(kingTour.ended()) {
