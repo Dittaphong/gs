@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-	<title><?php echo $title; ?></title>
+	<title>ระบบสารสนเทศนักศึกษา</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -21,7 +21,6 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>assets/ico/kingadmin-favicon114x114.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>assets/ico/kingadmin-favicon72x72.png">
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo base_url();?>assets/ico/kingadmin-favicon57x57.png">
-	
 </head>
 
 <body class="dashboard">
@@ -33,7 +32,7 @@
 				<div class="row">
 					<!-- logo -->
 					<div class="col-md-2 logo" style="margin-top:-5px;">
-						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;"><?php echo $title; ?></b></a> 
+						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;">ระบบสารสนเทศนักศึกษา</b></a> 
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
@@ -46,27 +45,7 @@
 									<a href="#" class="hidden-md hidden-lg main-nav-toggle"><i class="fa fa-bars"></i></a>
 									<!-- end responsive menu bar icon -->
 									
-									<button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i></button>
-									<!-- <div class="notifications">
-										<ul>
-											<!-- notification: inbox -->
-											<!-- <li class="notification-item inbox">
-												<div class="btn-group">
-													<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-														<i class="fa fa-envelope"></i><span class="count">2</span>
-														<span class="circle"></span>
-													</a>
-													<ul class="dropdown-menu" role="menu">
-														<li class="notification-header">
-															<em>You have 2 unread messages</em>
-												        </li>
-													</ul>
-												</div>
-											</li>
-
-										</ul>  
-									</div> -->
-						
+									<button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i></button> 
 									<div class="logged-user">
 										<div class="btn-group">
 											<a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
@@ -75,15 +54,15 @@
 											</a>
 											<ul class="dropdown-menu" role="menu">
 												<li>
-													<a href="#">
+													<a href="<?php echo base_url();?>index.php/student/profile/">
 														<i class="fa fa-user"></i>
-														<span class="text">Profile</span>
+														<span class="text"> Profile </span>
 													</a>
 												</li> 
 												<li>
-													<a href="#">
+													<a href="<?php echo base_url();?>index.php/authen/">
 														<i class="fa fa-power-off"></i>
-														<span class="text">Logout</span>
+														<span class="text"> Logout </span>
 													</a>
 												</li>
 											</ul>
@@ -142,7 +121,7 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><i class="fa fa-home"></i><a href="#">Home</a></li>
-									<li class="active">Dashboard</li>
+									<li class="active"><?php echo $namepage; ?></li>
 								</ul>
 							</div>
 							<div class="col-md-12" style="margin-top:-30px;"><hr></div>

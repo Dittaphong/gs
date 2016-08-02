@@ -1,4 +1,4 @@
-<?php $this->load->view('header'); ?>
+<?php $this->load->view('student/header'); ?>
 	<div class="row" >  
 		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
 			<p style="padding: 10px;">
@@ -82,64 +82,66 @@
 			<div class="panel panel-default" style="height:450px;padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp;ภาคนิพนธ์</div>
 				<table  border="0" width="100%">
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (TH) :</p></td>
-					<td align="left">
-						<p style="padding: 5px;text-align:right;">
-							<button type="button" class="btn btn-danger">ส่งหัวข้อภาคนิพนธ์</button>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (EN) :</p></td>
-					<td align="left"><p style="padding: 5px;">  </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">รายละเอียด :</p></td>
-					<td align="left"><p style="padding: 5px;"> </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">ผลงานวิจัย :</p></td>
-					<td align="left"><p style="padding: 5px;"> </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;"><br></p></td>
-					<td align="left"><p style="padding: 5px;"> </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">วันส่งเล่มสมบูรณ์ :</p></td>
-					<td align="left"><p style="padding: 5px;"> </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">สถานะการส่งเล่ม :</p></td>
-					<td align="left"><p style="padding: 5px;"> </p></td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาหลัก :</p></td>
-					<td align="left">
-						<p style="padding: 5px;text-align:right;">
-							<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาหลัก</button>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาร่วม :</p></td>
-					<td align="left">
-						<p style="padding: 5px;text-align:right;">
-							<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาร่วม</button>
-						</p>
-					</td>
-				</tr>
-			</table>
-
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (TH) :</p></td>
+						<td align="left">
+							<p style="padding: 5px;text-align:right;">
+								<button type="button" class="btn btn-danger ">ส่งหัวข้อภาคนิพนธ์</button>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p>ชื่อภาคนิพนธ์ (EN) :</p></td>
+						<td align="left"><p>  </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">รายละเอียด :</p></td>
+						<td align="left"><p style="padding: 5px;"> </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">ผลงานวิจัย :</p></td>
+						<td align="left"><p style="padding: 5px;"> </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;"><br></p></td>
+						<td align="left"><p style="padding: 5px;"> </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">วันส่งเล่มสมบูรณ์ :</p></td>
+						<td align="left"><p style="padding: 5px;"> </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">สถานะการส่งเล่ม :</p></td>
+						<td align="left"><p style="padding: 5px;"> </p></td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาหลัก :</p></td>
+						<td align="left">
+							<p style="padding: 5px;text-align:right;">
+								<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาหลัก</button>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาร่วม :</p></td>
+						<td align="left">
+							<p style="padding: 5px;text-align:right;">
+								<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาร่วม</button>
+							</p>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 
 		<div class="col-md-6 col-sm-12 " >
 			<div class="panel panel-default" style="height:450px;padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-tags"></i>&nbsp;&nbsp;ข่าวสารข้อมูล </div>
-				
+				<br>
+				<b><a href="#">ประกาศผล ส่งหัวข้อภาคนิพนธ์</a></b><br>
+				<b><a href="#">ประกาศ ตารางสอบหัวข้อภาคนิพนธ์</a></b><br>
+				<b><a href="#">ประกาศมหาวิทยาลัย</a></b><br>
 			</div>
 		</div> 
 	</div>
-<?php $this->load->view('footer'); ?>   
+<?php $this->load->view('student/footer'); ?>   
