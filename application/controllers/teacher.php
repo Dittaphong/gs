@@ -7,27 +7,38 @@ class Teacher extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('teacher/index');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/index',$data);
 	}
 	public function authen()
 	{
-		$this->load->view('teacher/authen');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/authen',$data);
 	}
 	public function informationTeacher()
 	{
-		$this->load->view('teacher/informationTeacher');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/informationTeacher',$data);
 	}
 	public function searchStudent()
 	{
-		$this->load->view('teacher/searchStudent');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/searchStudent',$data);
 	}
 	public function searchPaper()
 	{
-		$this->load->view('teacher/searchPaper');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/searchPaper',$data);
 	}
 	public function loadWork()
 	{
-		$this->load->view('teacher/loadWork');
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/loadWork',$data);
+	}
+	public function test()
+	{
+		$data['title'] = "ระบบสารสนเทศอาจารย์";
+		$this->load->view('teacher/test',$data);
 	}
 }
 /* End of file teacher.php */

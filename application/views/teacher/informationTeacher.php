@@ -1,6 +1,6 @@
 <?php $this->load->view('teacher/header'); ?>
 
-	<div class="col-sm-10 pull-right">    <!-- div body pull- right -->
+	<div class="col-sm-12 ">    <!-- div body pull- right -->
 		<div class="col-sm-12 well">
 			<div class="col-sm-2">
 				<div class="thumbnail">
@@ -8,7 +8,7 @@
 				</div>
 			</div>
 			<div class="col-sm-5 ">
-				<div class="form-horizontal small">
+				<div class="form-horizontal ">
 					<div class="form-group">
 						<label class="col-sm-5 text-right" for="inputEmail1">รหัส :</label>
 						<div class="col-sm-5"><label  for="inputPassword1">399991911</label></div>
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div class="col-sm-5 ">
-				<div class="form-horizontal small">
+				<div class="form-horizontal ">
 					<div class="form-group">
 						<label class="col-sm-6 text-right" for="inputEmail1">ระดับการศึกษา :</label>
 						<div class="col-sm-5"><label  for="inputPassword1">................................</label></div>
