@@ -22,9 +22,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | If you need to allow multiple domains, remember that this file is still
 | a PHP script and you can easily do that on your own.
 |
+<<<<<<< HEAD
 */ 
-$config['base_url'] = 'http://202.29.22.122/gstestweb/'; 
- 
+//$config['base_url'] = 'http://202.29.22.122/gstestweb/'; 
+
+$config['base_url'] = 'http://localhost/gs/'; 
+=======
+*/
+$config['base_url'] = 'http://localhost/gs/';
+>>>>>>> origin/master
+
 /*
 |--------------------------------------------------------------------------
 | Index File

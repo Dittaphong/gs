@@ -45,6 +45,12 @@ class Student extends CI_Controller {
 		$this->data['namepage']='ยื่นหัวข้อภาคนิพนธ์'; 
 		$this->load->view('/student/Termpaperconfirm',$this->data);
 	}
+
+	public function exams(){
+		$this->data['menuactive']='3';
+		$this->data['namepage']='ขอสอบภาคนิพนธ์'; 
+		$this->load->view('/student/Exams',$this->data);
+	}
 	
 	
 }?>

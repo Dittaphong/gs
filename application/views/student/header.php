@@ -103,10 +103,10 @@
 									<i class="fa fa-th-list fa-fw"></i><span class="text">ยื่นหัวข้อภาคนิพนธ์</span></a>
 								</li>
 								<li <?php echo $menuactive=='4' ? 'class="active"':'' ;?>>
-									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
+									<a href="<?php echo base_url();?>index.php/student/exams/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
 								</li> 
 								<li <?php echo $menuactive=='5' ? 'class="active"':'' ;?>>
-									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบวิทยานิพนธ์</span></a>
+									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
 								</li> 
 								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
 									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
