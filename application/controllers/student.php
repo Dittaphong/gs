@@ -52,5 +52,15 @@ class Student extends CI_Controller {
 		$this->load->view('/student/Exams',$this->data);
 	}
 	
+	public function research(){
+		$this->data['menuactive']='3';
+		$this->data['namepage']='ผลงานวิจัย'; 
+		$this->load->view('/student/research',$this->data);
+	}
+	public function searchdisst(){
+		$this->data['menuactive']='3';
+		$this->data['namepage']='ภาคนิพนธ์'; 
+		$this->load->view('/student/searchdisst',$this->data);
+	}
 	
 }?>

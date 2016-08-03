@@ -31,8 +31,8 @@
 			<div class="container">
 				<div class="row">
 					<!-- logo -->
-					<div class="col-md-2 logo" style="margin-top:-5px;">
-						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;">ระบบสารสนเทศอาจารย์</b></a>
+					<div class="col-md-2 logo" style="margin-top:-7px; margin-bottom:5px;">
+						<a href="#"><b style="color:#F2F2F2;font-size:16px;"><img src="<?php echo base_url();?>assets/img/logo-gs-t.png"></b></a> 
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">

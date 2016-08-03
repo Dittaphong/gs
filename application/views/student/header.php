@@ -31,8 +31,8 @@
 			<div class="container">
 				<div class="row">
 					<!-- logo -->
-					<div class="col-md-2 logo" style="margin-top:-5px;">
-						<a href="index.html"><b style="color:#F2F2F2;font-size:16px;">ระบบสารสนเทศนักศึกษา</b></a> 
+					<div class="col-md-2 logo" style="margin-top:-7px; margin-bottom:5px;">
+						<a href="#"><b style="color:#F2F2F2;font-size:16px;"><img src="<?php echo base_url();?>assets/img/logo-gs-s.png"></b></a> 
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
@@ -109,8 +109,11 @@
 									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
 								</li> 
 								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
-									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+									<a href="<?php echo base_url();?>index.php/student/searchdisst/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
 								</li> 
+								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
+									<a href="<?php echo base_url();?>index.php/student/research/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+								</li>
 								<li <?php echo $menuactive=='7' ? 'class="active"':'' ;?>>
 									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอจบ</span></a>
 								</li> 
