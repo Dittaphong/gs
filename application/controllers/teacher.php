@@ -7,38 +7,45 @@ class Teacher extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/index',$data);
-	}
-	public function authen()
-	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/authen',$data);
+		$this->data['menuactive']='1';
+		$this->data['namepage']='HOME';
+		$this->load->view('/teacher/informationTeacher',$this->data);
 	}
 	public function informationTeacher()
 	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/informationTeacher',$data);
-	}
-	public function searchStudent()
-	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/searchStudent',$data);
-	}
-	public function searchPaper()
-	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/searchPaper',$data);
+		$this->data['menuactive']='1';
+		$this->data['namepage']='สารสนเทศอาจารย์';
+		$this->load->view('/teacher/informationTeacher',$this->data);
 	}
 	public function loadWork()
 	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/loadWork',$data);
+		$this->data['menuactive']='2';
+		$this->data['namepage']='ภาระงาน';
+		$this->load->view('/teacher/loadWork',$this->data);
+	}
+	public function searchStudent()
+	{
+		$this->data['menuactive']='3';
+		$this->data['namepage']='ค้นหานักศึกษา';
+		$this->load->view('/teacher/searchStudent',$this->data);
+	}
+	public function searchPaper()
+	{
+		$this->data['menuactive']='4';
+		$this->data['namepage']='ค้นหาภาคนิพนธ์';
+		$this->load->view('/teacher/searchPaper',$this->data);
+	}
+	public function authen()
+	{
+		 $this->data['menuactive']='6';
+		$this->data['namepage']='Authen';
+		$this->load->view('/teacher/authen',$this->data);
 	}
 	public function test()
 	{
-		$data['title'] = "ระบบสารสนเทศอาจารย์";
-		$this->load->view('teacher/test',$data);
+		$this->data['menuactive']='1';
+		$this->data['namepage']='Dashboard';
+		$this->load->view('/teacher/test',$this->data);
 	}
 }
 /* End of file teacher.php */
