@@ -47,7 +47,7 @@ class Student extends CI_Controller {
 	}
 
 	public function exams(){
-		$this->data['menuactive']='3';
+		$this->data['menuactive']='4';
 		$this->data['namepage']='ขอสอบภาคนิพนธ์'; 
 		$this->load->view('/student/Exams',$this->data);
 	}
