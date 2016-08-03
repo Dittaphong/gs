@@ -49,8 +49,8 @@
 		<!-- <div class="col-sm-12 "> -->
 		<div class="col-sm-12 ">
 			<table class="table table-hover">
-				<thead>
-					<tr>
+				<thead >
+					<tr >
 						<th>รหัส</th>
 						<th>ชื่อ-นามสกุล</th>
 						<th>คณะ</th>
