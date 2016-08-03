@@ -18,7 +18,7 @@
 				<div class="panel-heading" style="text-align:left;">ระบบสารสนเทศอาจารย์</div>
 				<div class="panel-body">
 					<div class="col-sm-12">
-						<form class="form-horizontal" action="<?php echo base_url();?>index.php/teacher/">
+						<form class="form-horizontal" action="<?php echo base_url();?>index.php/informationTeacher/">
 							<div class="form-group">
 								<label for="userName" class="col-sm-4 control-label">ชื่อเข้าใช้</label>
 								<div class="col-sm-8">

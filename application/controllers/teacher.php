@@ -9,7 +9,7 @@ class Teacher extends CI_Controller {
 	{
 		$this->data['menuactive']='1';
 		$this->data['namepage']='HOME';
-		$this->load->view('/teacher/informationTeacher',$this->data);
+		$this->load->view('/teacher/authen',$this->data);
 	}
 	public function informationTeacher()
 	{
