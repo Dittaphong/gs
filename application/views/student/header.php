@@ -96,26 +96,25 @@
 								</li>
 								<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/ceqe/" >
-									<i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบ CE/QE</span></a>
+									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบ CE/QE</span></a>
 								</li>
 								<li <?php echo $menuactive=='3' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/termpaper/" >
-									<i class="fa fa-th-list fa-fw"></i><span class="text">ยื่นหัวข้อภาคนิพนธ์</span></a>
+									<i class="glyphicon glyphicon-link"></i><span class="text">ยื่นหัวข้อภาคนิพนธ์</span></a>
 								</li>
 								<li <?php echo $menuactive=='4' ? 'class="active"':'' ;?>>
-									<a href="<?php echo base_url();?>index.php/student/exams/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
+									<a href="<?php echo base_url();?>index.php/student/exams/" >
+									<i class="glyphicon glyphicon-bullhorn"></i><span class="text">ขอสอบภาคนิพนธ์</span></a>
 								</li> 
 								<li <?php echo $menuactive=='5' ? 'class="active"':'' ;?>>
-									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
-								</li> 
-								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
-									<a href="<?php echo base_url();?>index.php/student/searchdisst/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
+									<a href="<?php echo base_url();?>index.php/student/searchdisst/" >
+									<i class="glyphicon glyphicon-list-alt"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
 								</li> 
 								<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/research/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
 								</li>
 								<li <?php echo $menuactive=='7' ? 'class="active"':'' ;?>>
-									<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ขอจบ</span></a>
+									<a href="#" ><i class="glyphicon glyphicon-education"></i><span class="text">ขอจบ</span></a>
 								</li> 
 							</ul>
 						</nav>
