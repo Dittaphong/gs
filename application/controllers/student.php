@@ -62,5 +62,11 @@ class Student extends CI_Controller {
 		$this->data['namepage']='ค้นหาภาคนิพนธ์'; 
 		$this->load->view('/student/Searchdisst',$this->data);
 	}
+
+	public function completions(){
+		$this->data['menuactive']='7';
+		$this->data['namepage']='ขอจบการศึกษา'; 
+		$this->load->view('/student/Completions',$this->data);
+	}
 	
 }?>
