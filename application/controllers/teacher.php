@@ -35,6 +35,12 @@ class Teacher extends CI_Controller {
 		$this->data['namepage']='ค้นหาภาคนิพนธ์';
 		$this->load->view('/teacher/searchPaper',$this->data);
 	}
+	public function searchJournal()
+	{
+		$this->data['menuactive']='5';
+		$this->data['namepage']='ค้นหางานวิจัย';
+		$this->load->view('/teacher/searchJournal',$this->data);
+	}
 	public function authen()
 	{
 		 $this->data['menuactive']='6';

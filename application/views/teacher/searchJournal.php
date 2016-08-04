@@ -1,13 +1,12 @@
 <?php $this->load->view('teacher/header'); ?>
-
 <div class="col-sm-12">
 	<div class="col-sm-12 well">
-		<div class="col-sm-12"><small class="lead"> :: ค้นหาภาคนิพล ::</small></div>
+		<div class="col-sm-12"><small class="lead"> :: ค้นหางานวิจัย ::</small></div>
 		<form class="form-horizontal " role="form">
 			<div class="col-sm-12">
 				<div class="form-group">
 					<div class="col-sm-2">
-						<label class="control-label pull-right " for="email">ชื่อภาคนิพนธ์ :</label>
+						<label class="control-label pull-right " for="email">ชื่องานวิจัย :</label>
 					</div>
 					<div class="col-sm-4 ">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -58,7 +57,7 @@
 		<table class="table table-hover" width="100%">
 			<thead>
 				<tr >
-					<th>ชื่อวิทยานิพนธ์</th>
+					<th>ชื่องานวิจัย</th>
 					<th>ประเภท</th>
 					<th>สถานะ</th>
 					<th>รหัสนักศึกษา</th>
@@ -104,4 +103,5 @@
 	</div>
 	<!-- </div> -->
 </div>
+
 <?php $this->load->view('teacher/footer'); ?>

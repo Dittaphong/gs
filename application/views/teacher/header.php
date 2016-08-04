@@ -107,7 +107,8 @@
 													<i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหาภาคนิพนธ์</span></a>
 												</li>
 												<li <?php echo $menuactive=='5' ? 'class="active"':'' ;?>>
-													<a href="#" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
+													<a href="<?php echo base_url();?>index.php/teacher/searchJournal/" >
+													<i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
 												</li>
 												<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
 													<a href="<?php echo base_url();?>index.php/teacher/authen/" >
