@@ -32,7 +32,7 @@
 				<div class="row">
 					<!-- logo -->
 					<div class="col-md-2 logo" style="margin-top:-7px; margin-bottom:5px;">
-						<a href="#"><b style="color:#F2F2F2;font-size:16px;"><img src="<?php echo base_url();?>assets/img/logo-gs-t.png"></b></a> 
+						<a href="#"><b style="color:#F2F2F2;font-size:16px;"><img src="<?php echo base_url();?>assets/img/logo-gs-t.png"></b></a>
 					</div>
 					<!-- end logo -->
 					<div class="col-md-10">
@@ -91,7 +91,7 @@
 						<nav class="main-nav">
 							<ul class="main-menu">
 								<li <?php echo $menuactive=='1' ? 'class="active"':'' ;?> >
-									<a href="<?php echo base_url();?>index.php/teacher/" >
+									<a href="<?php echo base_url();?>index.php/teacher/informationTeacher" >
 										<i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
 									</li>
 									<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
