@@ -22,7 +22,7 @@
 							<div class="form-group">
 								<label for="userName" class="col-sm-4 control-label">ชื่อเข้าใช้</label>
 								<div class="col-sm-8">
-									<input type="email" class="form-control col-sm-12" id="userName" placeholder="Email">
+									<input type="email" class="form-control col-sm-12" id="userName" placeholder="Email" autofocus="true">
 								</div>
 							</div>
 							<div class="form-group">
@@ -33,7 +33,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<button type="submit" class="btn btn-default pull-right">เข้าสู่ระบบ</button>
+									<button type="submit" class="btn btn-primary pull-right">เข้าสู่ระบบ</button>
 								</div>
 							</div>
 						</form>
