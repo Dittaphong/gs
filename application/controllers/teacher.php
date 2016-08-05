@@ -7,9 +7,24 @@ class Teacher extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->data['menuactive']='1';
-		$this->data['namepage']='HOME';
-		$this->load->view('/teacher/authen',$this->data);
+		// $this->data['menuactive']='1';
+		// $this->data['namepage']='HOME';
+		$userName = $this->input->post('userName');
+		$password = $this->input->post('password');
+		if($userName == 'teacher' && $password='teacher'){
+			// redirect('teacher/informationTeacher','refresh');
+			$this->informationTeacher();
+		}else{
+			$this->load->view('/teacher/authen');
+			// $massage = "ข้อมูล ผิดพลาด ! username & password = 'teacher' ";
+			// $url = "/teacher/authen";
+			// $this->alert($massage, $url);
+			// exit();
+			// 	echo "<SCRIPT LANGUAGE='JavaScript'>
+			// 	window.alert('$massage')
+			// 	window.location.href='".site_url($url)."';
+			// </SCRIPT>";
+		}
 	}
 	public function informationTeacher()
 	{
@@ -43,7 +58,7 @@ class Teacher extends CI_Controller {
 	}
 	public function authen()
 	{
-		 $this->data['menuactive']='6';
+		$this->data['menuactive']='6';
 		$this->data['namepage']='Authen';
 		$this->load->view('/teacher/authen',$this->data);
 	}
@@ -52,6 +67,15 @@ class Teacher extends CI_Controller {
 		$this->data['menuactive']='1';
 		$this->data['namepage']='Dashboard';
 		$this->load->view('/teacher/test',$this->data);
+	}
+	
+	public function alert($massage, $url)
+	{
+		echo "<meta charset='UTF-8'>
+		<SCRIPT LANGUAGE='JavaScript'>
+			window.alert('$massage');
+			window.location.href='".site_url($url)."';
+		</SCRIPT>";
 	}
 }
 /* End of file teacher.php */

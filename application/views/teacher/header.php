@@ -21,6 +21,9 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>assets/ico/kingadmin-favicon114x114.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>assets/ico/kingadmin-favicon72x72.png">
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo base_url();?>assets/ico/kingadmin-favicon57x57.png">
+
+	<!-- javascript -->
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery/jquery-2.1.0.min.js"></script>
 </head>
 
 <body class="dashboard">
