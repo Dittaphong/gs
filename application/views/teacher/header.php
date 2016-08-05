@@ -114,6 +114,7 @@
 													<a href="<?php echo base_url();?>index.php/teacher/authen/" >
 													<i class="fa fa-th-list fa-fw"></i><span class="text">Authen</span></a>
 												</li>
+												<li><p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p></li>
 											</ul>
 										</nav>
 										<!-- /main-nav -->
