@@ -8,27 +8,13 @@
 				<div class="col-sm-12">
 					<div class="form-group">
 						<div class="col-sm-2">
-							<label class="control-label pull-right " for="email">รหัส :</label>
+							<label class="control-label pull-right " for="email" style="font-weight: bold; ">รหัส :</label>
 						</div>
 						<div class="col-sm-4">
-							<input type="email" class="form-control " id="email" placeholder="Enter email">
+							<input type="email" class="form-control " id="email" placeholder="Enter email" >
 						</div>
 						<div class="col-sm-2">
-							<label class="control-label pull-right "  for="email">ชื่อ - สกุล :</label>
-						</div>
-						<div class="col-sm-4">
-							<input type="email" class="form-control" id="email" placeholder="Enter email">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-2">
-							<label class="control-label pull-right "  for="email">แผนการศึกษา/สาขา :</label>
-						</div>
-						<div class="col-sm-4">
-							<input type="email" class="form-control" id="email" placeholder="Enter email">
-						</div>
-						<div class="col-sm-2">
-							<label class="control-label pull-right "  for="email">คณะ :</label>
+							<label class="control-label pull-right "  for="email"  style="font-weight: bold; ">ชื่อ - สกุล :</label>
 						</div>
 						<div class="col-sm-4">
 							<input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -36,7 +22,21 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-2">
-							<label class="control-label pull-right "  for="email">สถานะ :</label>
+							<label class="control-label pull-right "  for="email"  style="font-weight: bold; ">แผนการศึกษา/สาขา :</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+						<div class="col-sm-2">
+							<label class="control-label pull-right "  for="email"  style="font-weight: bold; ">คณะ :</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-2">
+							<label class="control-label pull-right "  for="email"  style="font-weight: bold; ">สถานะ :</label>
 						</div>
 						<div class="col-sm-4">
 							<input type="email" class="form-control" id="email" placeholder="Enter email">

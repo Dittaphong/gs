@@ -64,13 +64,13 @@
 				<div class="panel-heading" ><i class="fa fa-user"></i>&nbsp;&nbsp;นักศึกษาปัจจุบัน</div>
 				<table  border="0" width="100%" class="table-hover">
 					<tr>
-						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">1. นางสาว สุภาวดี จำรูนสิริ  </p></td>
 					</tr>
 					<tr>
-						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">2. นาย ชาญชัย นิยะนุช </p></td>
 					</tr>
 					<tr>
-						<td  width="100%"><p style="padding: 1px;">1. นาย  xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">3. นาย สุรพงษ์ ชนะเทพ</p></td>
 
 					</tr>
 				</table>
@@ -82,16 +82,13 @@
 				<div class="panel-heading" ><i class="fa fa-file-text"></i>&nbsp;&nbsp;นักศึกษาที่รับผิดชอบ</div>
 				<table  border="0" width="100%" class="table-hover">
 					<tr>
-						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">1. นาย  สุนทร ยาคุ้มภัย </p></td>
 					</tr>
 					<tr>
-						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">2. นางสาว  เกษร น้อยนาง </p></td>
 					</tr>
 					<tr>
-						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx </p></td>
-					</tr>
-					<tr>
-						<td align="left" width="70%"><p style="padding: 1px;">1. นาย xxxxx xxxxx </p></td>
+						<td  width="100%"><p style="padding: 1px;">3. นาย  ธีระ ขำขัน </p></td>
 					</tr>
 				</table>
 			</div>

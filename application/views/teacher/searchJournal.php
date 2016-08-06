@@ -6,13 +6,13 @@
 			<div class="col-sm-12">
 				<div class="form-group">
 					<div class="col-sm-2">
-						<label class="control-label pull-right " for="email">ชื่องานวิจัย :</label>
+						<label class="control-label pull-right " for="email" style="font-weight: bold; ">ชื่องานวิจัย :</label>
 					</div>
 					<div class="col-sm-4 ">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
 					</div>
 					<div class="col-sm-2">
-						<label class="control-label pull-right " for="email">ชื่อ - สกุล :</label>
+						<label class="control-label pull-right " for="email" style="font-weight: bold; ">ชื่อ - สกุล :</label>
 					</div>
 					<div class="col-sm-4">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -20,13 +20,13 @@
 				</div>
 				<div class="form-group">
 					<div class="col-sm-2">
-						<label class="control-label pull-right " for="email">แผนการศึกษา/สาขา :</label>
+						<label class="control-label pull-right " for="email" style="font-weight: bold; ">แผนการศึกษา/สาขา :</label>
 					</div>
 					<div class="col-sm-4">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
 					</div>
 					<div class="col-sm-2">
-						<label class="control-label pull-right " for="email">คณะ :</label>
+						<label class="control-label pull-right " for="email" style="font-weight: bold; ">คณะ :</label>
 					</div>
 					<div class="col-sm-4">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -34,13 +34,13 @@
 				</div>
 				<div class="form-group">
 					<div class="col-sm-2">
-						<label class="control-label pull-right" for="email">ระดับการศึกษา :</label>
+						<label class="control-label pull-right" for="email" style="font-weight: bold; ">ระดับการศึกษา :</label>
 					</div>
 					<div class="col-sm-4">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
 					</div>
 					<div class="col-sm-2">
-						<label class="control-label pull-right ">ประเภท :</label>
+						<label class="control-label pull-right " style="font-weight: bold; ">ประเภท :</label>
 					</div>
 					<div class="col-sm-4">
 						<input type="email" class="form-control" id="email" placeholder="Enter email">
