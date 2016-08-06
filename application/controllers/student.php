@@ -35,8 +35,9 @@ class Student extends CI_Controller {
 		$this->load->view('/student/Termpaper',$this->data);
 	}
 
-	public function adviser(){
+	public function adviser($param1='1'){
 		$this->data['menuactive']='3';
+		$this->data['param1']=$param1;
 		$this->data['namepage']='ขอแต่งตั้งอาจารย์ที่ปรึกษา'; 
 		$this->load->view('/student/Adviser',$this->data);
 	}

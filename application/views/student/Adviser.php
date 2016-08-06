@@ -1,5 +1,5 @@
 <?php $this->load->view('/student/Header'); ?>
-	<div class="row" >  
+	<!-- <div class="row" >  
 		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
 			<p style="padding: 10px;">
 				<img alt="" width="100%"  src="<?php echo base_url().'assets/img/profile-studen.png';?>" data-holder-rendered="true" style=" display: block;">
@@ -65,32 +65,91 @@
 			</div>  
 			<div class="col-md-1"></div>
 		</div>
-	</div>
-	<div class="row" style="text-align:left;margin-top:5%"> 
-		<div class="col-md-12 col-sm-12 " >
-			<div class="panel panel-default" style="height:340px;padding:5px;"> 
-				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา</div>
-				<br>   
-				<div class="col-sm-12" style="margin-top:10px;">
-					<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาหลัก </label>
-					<div class="col-sm-8">
-						<input type="text" class="form-control col-md-12" id="address" placeholder="ค้นหา...">
-					</div>
-				</div>  
-				<div class="col-sm-12" style="margin-top:10px;">
-					<label for="email" class="col-sm-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาร่วม </label>
-					<div class="col-sm-8">
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
-						<i class="glyphicon glyphicon-plus-sign" style="font-size:30px;color:#8A0808;"></i>
-					</div>
-				</div>   
-				<div class="col-sm-12" style="text-align:center;"><br>
-					<button type="submit" class="btn btn-primary btn-sm">ยื่นขอแต่งตั้งอาจารย์ที่ปรึกษา</button>
-					<br>
-				</div> 
+	</div> -->
+
+	<div class="row" style="text-align:left;margin-top:0%"> 
+		<div class="col-md-12 col-sm-12" style="text-align:center;margin-top:3%"> 
+			<div class="col-md-1"></div>
+			<div class="col-md-3 col-sm-4">
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/adviser/1/" >
+					<?php if($param1==1){ ?>
+						<i style="background:#088A08;">1</i>
+					<?php }else{ ?>
+						<i>1</i>
+					<?php } ?>
+					</a>
+				</div>
+				<span>ขอแต่งตั้งอาจารย์ที่ปรึกษาค้นคว้าอิสระ</span>
 			</div>
-		</div> 
+			<div class="col-md-4 col-sm-4">
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/adviser/2/" >
+					<?php if($param1==2){ ?>
+						<i style="background:#088A08;">2</i>
+					<?php }else{ ?>
+						<i>2</i>
+					<?php } ?>
+					</a>
+				</div>
+				<span>Preview</span>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/adviser/3/" >
+					<?php if($param1==3){ ?>
+						<i style="background:#088A08;">3</i>
+					<?php }else{ ?>
+						<i>3</i>
+					<?php } ?>
+					</a>
+				</div> 
+				<span>Print</span>
+			</div>  
+			<div class="col-md-1"></div>
+		</div>
 	</div>
+	<?php if($param1==1){ ?>
+		<div class="row" style="text-align:left;margin-top:5%"> 
+			<div class="col-md-12 col-sm-12 " >
+				<div class="panel panel-default" style="height:340px;padding:5px;"> 
+					<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา</div>
+					<br>   
+					<div class="col-sm-12" style="margin-top:10px;">
+						<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาหลัก </label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control col-md-12" id="address" placeholder="ค้นหา...">
+						</div>
+					</div>  
+					<div class="col-sm-12" style="margin-top:10px;">
+						<label for="email" class="col-sm-3 control-label" style="text-align:right;padding-top:10px;">อาจารย์ที่ปรึกษาร่วม </label>
+						<div class="col-sm-8">
+							<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
+							<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
+							<input type="email" class="form-control col-sm-12" id="email" placeholder="ค้นหา..."><br><br>
+							<i class="glyphicon glyphicon-plus-sign" style="font-size:30px;color:#8A0808;"></i>
+						</div>
+					</div>   
+					<div class="col-sm-12" style="text-align:center;"><br>
+						<button type="submit" class="btn btn-primary btn-sm">ยื่นขอแต่งตั้งอาจารย์ที่ปรึกษา</button>
+						<br>
+					</div> 
+				</div>
+			</div> 
+		</div>
+	<?php }else if($param1==2){ ?>
+		<div class="row preview" style="text-align:left;margin-top:5%">
+			<div class="col-md-12 col-sm-12 " >
+				<div class="panel panel-default" style="height:1700px;padding:5px;"> 
+					<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา </div>
+					<br>   
+					<div class="col-md-12 col-sm-12 " >  
+						<img src="<?php echo base_url();?>assets/img/formadviser.jpg" style="width:100%;">
+					
+					</div>
+				</div>
+			</div>
+		</div>  
+	<?php }else if($param1==3){ ?>
+	<?php } ?>
 <?php $this->load->view('/student/Footer'); ?>   

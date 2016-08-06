@@ -98,6 +98,10 @@
 									<a href="<?php echo base_url();?>index.php/student/ceqe/" >  <?php  // echo $this->session->userdata('username')=='ms_user' ? 'CE' : 'QE' ;?>
 									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบวัดคุณสมบัติ</span></a>
 								</li>
+								<li <?php echo $menuactive=='8' ? 'class="active"':'' ;?>>
+									<a href="<?php echo base_url();?>index.php/student/adviser/" >
+									<i class="glyphicon glyphicon-link"></i><span class="text">ขอแต่งตั้งอาจารย์ที่ปรึกษา</span></a>
+								</li>
 								<li <?php echo $menuactive=='3' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/termpaper/" >
 									<i class="glyphicon glyphicon-link"></i><span class="text">ยื่นหัวข้อภาคนิพนธ์</span></a>
