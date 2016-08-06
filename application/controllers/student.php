@@ -22,9 +22,10 @@ class Student extends CI_Controller {
 		$this->load->view('/student/Profile',$this->data);
 	}
 
-	public function ceqe(){
+	public function ceqe($param1='1'){
 		$this->data['menuactive']='2';
-		$this->data['namepage']='ขอสอบประมวลความรู้'; 
+		$this->data['param1']=$param1;
+		$this->data['namepage']='ขอสอบวัดคุณสมบัติ'; 
 		$this->load->view('/student/Ceqe',$this->data);
 	}
 

@@ -33,7 +33,11 @@
 			<table  border="0" width="100%">
 				<tr>
 					<td align="right" width="50%"><p style="padding: 5px;">ระดับการศึกษา :</p></td>
-					<td align="left"><p style="padding: 5px;">ปริญญาโท</p></td>
+					<td align="left">
+						<p style="padding: 5px;">
+							<?php  echo $this->session->userdata('username')=='ms_user' ? 'ปริญญาโท' : 'ปริญญาเอก' ;?> 
+						</p>
+					</td>
 				</tr>
 				<tr>
 					<td align="right" width="50%"><p style="padding: 5px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
@@ -56,7 +60,7 @@
 			</div>
 			<div class="col-md-2 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
-				<span>ขอสอบ CE/QE</span>
+				<span>ขอสอบประมวลความรู้</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
 				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">3</i></div>

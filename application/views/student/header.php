@@ -96,7 +96,7 @@
 								</li>
 								<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/ceqe/" >  <?php  // echo $this->session->userdata('username')=='ms_user' ? 'CE' : 'QE' ;?>
-									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบประมวลความรู้</span></a>
+									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบวัดคุณสมบัติ</span></a>
 								</li>
 								<li <?php echo $menuactive=='3' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/termpaper/" >
