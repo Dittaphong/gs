@@ -24,7 +24,7 @@ class Student extends CI_Controller {
 
 	public function ceqe(){
 		$this->data['menuactive']='2';
-		$this->data['namepage']='ขอสอบ CE/QE'; 
+		$this->data['namepage']='ขอสอบประมวลความรู้'; 
 		$this->load->view('/student/Ceqe',$this->data);
 	}
 

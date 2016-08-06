@@ -18,18 +18,22 @@
 				<div class="panel-heading" style="text-align:left;">ระบบสารสนเทศนักศึกษา</div>
 				<div class="panel-body">
 					<div class="col-sm-12">
-						<form class="form-horizontal" action="<?php echo base_url();?>index.php/student/">
+						<form class="form-horizontal" name='form' action="<?php echo base_url();?>index.php/authen/studentLogin/" method="post">
 							<div class="form-group">
 								<label for="userName" class="col-sm-4 control-label">ชื่อเข้าใช้</label>
 								<div class="col-sm-8">
-									<input type="email" class="form-control col-sm-12" id="userName" placeholder="Email">
+									<input type="text" class="form-control col-sm-12" name='username' placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="password" class="col-sm-4 control-label">รหัสผ่าน</label>
 								<div class="col-sm-8">
-									<input type="password" class="form-control col-sm-12" id="password" placeholder="Password">
+									<input type="password" class="form-control col-sm-12" name="password" placeholder="Password">
 								</div>
+							</div class="col-sm-12">
+								<p style="color:#ff0000;"><?php echo $error_txt; ?></p>
+							<div>
+								
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">

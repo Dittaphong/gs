@@ -60,7 +60,7 @@
 													</a>
 												</li> 
 												<li>
-													<a href="<?php echo base_url();?>index.php/authen/">
+													<a href="<?php echo base_url();?>index.php/authen/logout/">
 														<i class="fa fa-power-off"></i>
 														<span class="text"> Logout </span>
 													</a>
@@ -95,8 +95,8 @@
 									<i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
 								</li>
 								<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
-									<a href="<?php echo base_url();?>index.php/student/ceqe/" >
-									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบ CE/QE</span></a>
+									<a href="<?php echo base_url();?>index.php/student/ceqe/" >  <?php  // echo $this->session->userdata('username')=='ms_user' ? 'CE' : 'QE' ;?>
+									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบประมวลความรู้</span></a>
 								</li>
 								<li <?php echo $menuactive=='3' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/termpaper/" >

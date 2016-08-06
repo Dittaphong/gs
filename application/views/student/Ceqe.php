@@ -59,7 +59,7 @@
 					 <b>สอบครั้งที่ 1 02/08/2558 </b> &nbsp;&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-thumbs-down" style="color:#8A0808;"></i> <b style="color:#8A0808;"> ไม่ผ่านการสอบ </b> <br>
 				</div>   
 				<div class="col-sm-12" style="text-align:center;"><br><br>
-					<button type="submit" class="btn btn-primary btn-sm"> ขอสอบ CE/QE </button>
+					<button type="submit" class="btn btn-primary btn-sm"> ขอสอบประมวลความรู้ </button>
 					<br>
 				</div> 
 			</div>
