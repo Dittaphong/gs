@@ -7,9 +7,9 @@ class Authen extends CI_Controller {
 	{
 		//$this->load->view('login');
 		if($this->session->userdata('username')=='teacher'){
-			//redirect('index.php/teacher/');
+			redirect('/teacher/');
 		}else if($this->session->userdata('username')=='ms_user' OR $this->session->userdata('username')=='pd_user'){
-			//redirect('index.php/student/');
+			redirect('/student/');
 		}else{
 			$this->studentLogin();
 		}

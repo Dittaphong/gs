@@ -63,8 +63,9 @@ class Student extends CI_Controller {
 		$this->load->view('/student/Exams',$this->data);
 	}
 	
-	public function research(){
+	public function research($param1='1'){
 		$this->data['menuactive']='6';
+		$this->data['param1']=$param1;  
 		$this->data['namepage']='ค้นหางานวิจัย'; 
 		$this->load->view('/student/Research',$this->data);
 	}

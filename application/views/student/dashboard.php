@@ -55,29 +55,41 @@
 		</div>
 		<div class="col-md-12 col-sm-12" style="text-align:center;margin-top:3%">
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified status_bar" style="margin-left:-19%;margin-right:-19%;"><i >1</i></div>
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+				<i style="background:#088A08;color:#ffffff;border-color:#088A08;">1</i>
+				</div>
 				<span>เข้าศึกษา</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+				<i style="background:#088A08;color:#ffffff;border-color:#088A08;">2</i>
+				</div>
 				<span>
 					<?php echo $this->session->userdata('username')=='ms_user' ? 'ขอสอบประมวลผลความรู้' : 'ขอสอบวัดคุณสมบัติ' ;?>
 				</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">3</i></div>
+				<div class="sidebar-minified active" style="margin-left:-19%;margin-right:-19%;">
+					<i >3</i>
+				</div>
 				<span>ยื่นหัวข้อภาคนิพนธ์</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >4</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;">
+				<i >4</i>
+				</div>
 				<span>สอบเค้าโครง</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >5</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;">
+				<i >5</i>
+				</div>
 				<span>สอบวิทยานิพนธ์</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >6</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;">
+				<i >6</i>
+				</div>
 				<span>จบการศึกษา</span>
 			</div>
 		</div>
@@ -92,7 +104,7 @@
 						<td align="right" width="30%"><p style="padding: 5px;">ชื่อภาคนิพนธ์ (TH) :</p></td>
 						<td align="left">
 							<p style="padding: 5px;text-align:right;">
-								<button type="button" class="btn btn-danger ">ส่งหัวข้อภาคนิพนธ์</button>
+								<button type="button" class="btn btn-danger btn-sm">ส่งหัวข้อภาคนิพนธ์</button>
 							</p>
 						</td>
 					</tr>
@@ -124,7 +136,7 @@
 						<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาหลัก :</p></td>
 						<td align="left">
 							<p style="padding: 5px;text-align:right;">
-								<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาหลัก</button>
+								<button type="button" class="btn btn-danger btn-sm">ขอแต่งตั้งอาจารย์ที่ปรึกษาหลัก</button>
 							</p>
 						</td>
 					</tr>
@@ -132,7 +144,7 @@
 						<td align="right" width="30%"><p style="padding: 5px;">อาจารย์ที่ปรึกษาร่วม :</p></td>
 						<td align="left">
 							<p style="padding: 5px;text-align:right;">
-								<button type="button" class="btn btn-danger">ขอแต่งตั้งอาจารย์ที่ปรึกษาร่วม</button>
+								<button type="button" class="btn btn-danger btn-sm">ขอแต่งตั้งอาจารย์ที่ปรึกษาร่วม</button>
 							</p>
 						</td>
 					</tr>
