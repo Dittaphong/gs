@@ -54,20 +54,46 @@
 		<div class="col-md-12 col-sm-12" style="text-align:center;margin-top:3%"> 
 			<div class="col-md-1"></div>
 			<div class="col-md-3 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">1</i></div>
-				<span>หัวข้อภาคนิพนธ์</span>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/termpaper/1/" >
+					<?php if($param1==1){ ?>
+						<i style="background:#088A08;color:#ffffff;" >1</i>
+					<?php }else{ ?>
+						<i>1</i>
+					<?php } ?>
+					</a>
+				</div>
+				<span>ยื่นหัวข้อภาคนิพนธ์</span>
 			</div>
 			<div class="col-md-4 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
-				<span>ขอแต่งตั้งอาจารย์ที่ปรึกษา</span>
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/termpaper/2/" >
+					<?php if($param1==2){ ?>
+						<i style="background:#088A08;color:#ffffff;">2</i>
+					<?php }else{ ?>
+						<i>2</i>
+					<?php } ?>
+					</a>
+				</div>
+				<span>Preview</span>
 			</div>
 			<div class="col-md-3 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >3</i></div>
-				<span>ยื่นยันข้อมูล</span>
+				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;">
+					<a href="<?php echo base_url();?>index.php/student/termpaper/3/" >
+					<?php if($param1==3){ ?>
+						<i style="background:#088A08;color:#ffffff;">3</i>
+					<?php }else{ ?>
+						<i>3</i>
+					<?php } ?>
+					</a>
+				</div> 
+				<span>Print</span>
 			</div>  
 			<div class="col-md-1"></div>
 		</div>
 	</div>
+	<?php if($param1==1){ ?>
+	<form class="form-horizontal" name='form' action="<?php echo base_url();?>index.php/student/termpaper/2/" method="post">
 	<div class="row" style="text-align:left;margin-top:5%"> 
 		<div class="col-md-12 col-sm-12 " >
 			<div class="panel panel-default" style="height:260px;padding:5px;"> 
@@ -76,21 +102,60 @@
 				<div class="col-sm-12" style="margin-top:10px;">
 					<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:10px;">หัวข้อภาษาไทย </label>
 					<div class="col-sm-8">
-						<input type="text" class="form-control col-md-12" style="height:60px;" id="address" placeholder="">
+						<input type="text" class="form-control col-md-12" style="height:60px;" name="name_th" value="<?php echo $name_th; ?>" required  placeholder="">
 					</div>
 				</div>  
 				<div class="col-sm-12" style="margin-top:10px;">
 					<label for="email" class="col-sm-3 control-label" style="text-align:right;padding-top:10px;">หัวข้อภาษาอังกฤษ </label>
 					<div class="col-sm-8">
-						<input type="email" class="form-control col-sm-12" style="height:60px;" id="email" placeholder="">
+						<input type="text" class="form-control col-sm-12" style="height:60px;" name="name_en" value="<?php echo $name_en; ?>" required placeholder="">
 					</div>
-				</div>   
-				 
-				<div class="col-sm-12" style="text-align:center;"><br>
-					<button type="submit" class="btn btn-primary btn-sm">ยื่นหัวข้อสอบภาคนิพนธ์</button>
-					<br>
+				</div>    
+				<div class="col-sm-12" style="text-align:center;"><br> 
+						<button type="submit" class="btn btn-primary btn-sm">ยื่นหัวข้อสอบภาคนิพนธ์</button> 
 				</div> 
 			</div>
 		</div> 
 	</div>
+	</form>
+	<?php }else if($param1==2){ ?>
+	<form class="form-horizontal" name='form' action="<?php echo base_url();?>index.php/student/termpaper/3/" method="post">
+	<div class="row" style="text-align:left;margin-top:5%"> 
+		<div class="col-md-12 col-sm-12 " >
+			<div class="panel panel-default" style="height:260px;padding:5px;"> 
+				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ส่งหัวข้อภาคนิพนธ์</div>
+				<br>   
+				<div class="col-sm-12" style="margin-top:10px;">
+					<label for="address" class="col-md-3 control-label" style="text-align:right;">หัวข้อภาษาไทย </label>
+					<div class="col-sm-8 control-label">
+						<?php echo $name_th; ?>
+					</div>
+				</div>  
+				<div class="col-sm-12" style="margin-top:10px;">
+					<label for="email" class="col-sm-3 control-label" style="text-align:right;">หัวข้อภาษาอังกฤษ </label>
+					<div class="col-sm-8 control-label">
+						 <?php echo $name_en; ?> 
+					</div>
+				</div>   
+				<div class="col-sm-12" style="margin-top:10px;">
+					<label for="email" class="col-sm-3 control-label" style="text-align:right;">หัวข้อภาษาอังกฤษ </label>
+					<div class="col-sm-8 control-label">
+						 <?php echo "รศ.ดร.เอนก คมขำ"; //$name_en; ?> 
+					</div>
+				</div>  
+				<input type="hidden" name="name_th" value="<?php echo $name_th; ?>" >
+				<input type="hidden" name="name_en" value="<?php echo $name_en; ?>" >
+				<div class="col-sm-12" style="text-align:center;"><br><br> 
+						<button type="submit" class="btn btn-primary btn-sm">ยื่นยันเพื่อนบันทึกข้อมูล</button> 
+				</div> 
+			</div>
+		</div> 
+	</div>
+	</form>
+	<?php }else if($param1==3){ ?>
+	<?php } ?>
 <?php $this->load->view('/student/Footer'); ?> 
+
+
+
+

@@ -1,6 +1,6 @@
 <?php $this->load->view('/student/Header'); ?>
 
-	<div class="row" >  
+	<!-- <div class="row" >  
 		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
 			<p style="padding: 10px;">
 				<img alt="" width="100%"  src="<?php echo base_url().'assets/img/profile-studen.png';?>" data-holder-rendered="true" style=" display: block;">
@@ -50,9 +50,9 @@
 				</tr>
 			</table>
 		</div>
-	</div>
+	</div> -->
 	<!-- End ข้อมูลผู้ใช้ -->
-<div class="row" style="text-align:left;margin-top:5%"> 
+<div class="row" style="text-align:left;margin-top:2%"> 
 		<div class="col-md-12 col-sm-12 " >
 			<div class="panel panel-default" style="height:260px;padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ภาคนิพนธ์</div>

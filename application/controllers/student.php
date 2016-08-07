@@ -24,19 +24,27 @@ class Student extends CI_Controller {
 
 	public function ceqe($param1='1'){
 		$this->data['menuactive']='2';
-		$this->data['param1']=$param1;
-		$this->data['namepage']='ขอสอบวัดคุณสมบัติ'; 
+		$this->data['param1']=$param1;  
+		$this->data['namepage']= $this->session->userdata('username')=='ms_user' ? 'ขอสอบประมวลผลความรู้' : 'ขอสอบวัดคุณสมบัติ'; 
 		$this->load->view('/student/Ceqe',$this->data);
 	}
 
-	public function termpaper(){
+	public function termpaper($param1='1'){
 		$this->data['menuactive']='3';
+		$this->data['param1']=$param1;
+		if($_POST){ 
+			$this->data['name_th'] =$_POST['name_th'];
+		    $this->data['name_en'] =$_POST['name_en'];
+		}else{
+			$this->data['name_th'] ="";
+		    $this->data['name_en'] ="";
+		}
 		$this->data['namepage']='ยื่นหัวข้อภาคนิพนธ์'; 
 		$this->load->view('/student/Termpaper',$this->data);
 	}
 
 	public function adviser($param1='1'){
-		$this->data['menuactive']='3';
+		$this->data['menuactive']='8';
 		$this->data['param1']=$param1;
 		$this->data['namepage']='ขอแต่งตั้งอาจารย์ที่ปรึกษา'; 
 		$this->load->view('/student/Adviser',$this->data);
@@ -48,8 +56,9 @@ class Student extends CI_Controller {
 		$this->load->view('/student/Termpaperconfirm',$this->data);
 	}
 
-	public function exams(){
+	public function exams($param1='1'){
 		$this->data['menuactive']='4';
+		$this->data['param1']=$param1;
 		$this->data['namepage']='ขอสอบภาคนิพนธ์'; 
 		$this->load->view('/student/Exams',$this->data);
 	}

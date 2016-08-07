@@ -15,6 +15,8 @@
 	<link href="<?php echo base_url();?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url();?>assets/css/main.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url();?>assets/css/my-custom-styles.css" rel="stylesheet" type="text/css">
+
+	<link href="<?php echo base_url();?>assets/css/gs.css" rel="stylesheet" type="text/css">
 	 
 	<!-- Fav and touch icons -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>assets/ico/kingadmin-favicon144x144.png">
@@ -95,8 +97,13 @@
 									<i class="fa fa-home fa-fw"></i><span class="text">HOME</span></a>
 								</li>
 								<li <?php echo $menuactive=='2' ? 'class="active"':'' ;?>>
-									<a href="<?php echo base_url();?>index.php/student/ceqe/" >  <?php  // echo $this->session->userdata('username')=='ms_user' ? 'CE' : 'QE' ;?>
-									<i class="glyphicon glyphicon-file"></i><span class="text">ขอสอบวัดคุณสมบัติ</span></a>
+									<a href="<?php echo base_url();?>index.php/student/ceqe/" >  
+									
+									<i class="glyphicon glyphicon-file"></i>
+									<span class="text">
+									<?php echo $this->session->userdata('username')=='ms_user' ? 'ขอสอบประมวลผลความรู้' : 'ขอสอบวัดคุณสมบัติ' ;?>
+									</span>
+									</a>
 								</li>
 								<li <?php echo $menuactive=='8' ? 'class="active"':'' ;?>>
 									<a href="<?php echo base_url();?>index.php/student/adviser/" >

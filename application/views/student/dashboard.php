@@ -55,27 +55,29 @@
 		</div>
 		<div class="col-md-12 col-sm-12" style="text-align:center;margin-top:3%">
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >1</i></div>
+				<div class="sidebar-minified status_bar" style="margin-left:-19%;margin-right:-19%;"><i >1</i></div>
 				<span>เข้าศึกษา</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
-				<span>ขอสอบประมวลความรู้</span>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >2</i></div>
+				<span>
+					<?php echo $this->session->userdata('username')=='ms_user' ? 'ขอสอบประมวลผลความรู้' : 'ขอสอบวัดคุณสมบัติ' ;?>
+				</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">3</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i style="background:#088A08;">3</i></div>
 				<span>ยื่นหัวข้อภาคนิพนธ์</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >4</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >4</i></div>
 				<span>สอบเค้าโครง</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >5</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >5</i></div>
 				<span>สอบวิทยานิพนธ์</span>
 			</div>
 			<div class="col-md-2 col-sm-4">
-				<div class="sidebar-minified" style="margin-left:-19%;margin-right:-19%;"><i >6</i></div>
+				<div class="sidebar-minified " style="margin-left:-19%;margin-right:-19%;"><i >6</i></div>
 				<span>จบการศึกษา</span>
 			</div>
 		</div>

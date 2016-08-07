@@ -15340,10 +15340,10 @@ ul.main-menu > li > a,
 }
 @media screen and (max-width: 992px) {
   .sidebar-minified {
-    display: none;
+    /*display: none;*/
   }
 }
-.sidebar-minified:before {
+.sidebar-minified:before{
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
