@@ -92,7 +92,7 @@
 
 	<div class="row" style="text-align:left;margin-top:1%"> 
 		<div class="col-md-12 col-sm-12 " >
-			<div class="panel panel-default" style="height:<?php echo $param1 == '2' ? '790px;' : '390px;' ; ?>padding:5px;"> 
+			<div class="panel panel-default" style="height:<?php echo $param1 == '2' ? '720px;' : '390px;' ; ?>padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp; ค้นหาผลงานวิจัย</div>  
 			<br>  
 			<div class="col-sm-12" style="margin-top:10px;">
