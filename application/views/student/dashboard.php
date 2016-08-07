@@ -1,5 +1,5 @@
 <?php $this->load->view('/student/Header'); ?>
-	<div class="row" >  
+<div class="row" >  
 		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
 			<p style="padding: 10px;">
 				<img alt="" width="100%"  src="<?php echo base_url().'assets/img/profile-studen.png';?>" data-holder-rendered="true" style=" display: block;">
@@ -8,23 +8,23 @@
 		<div class="col-md-5 col-sm-12" >
 			<table border="0" width="100%">
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">รหัส :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>รหัส :</b></p></td>
 					<td align="left"><p style="padding: 5px;">59123435678</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ชื่อ-สกุล (ภาษาไทย) :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>ชื่อ-สกุล (ภาษาไทย) :</b></p></td>
 					<td align="left"><p style="padding: 5px;">นายสมชาย ใจดีมาก</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">แผนการเรียน :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>แผนการเรียน :</b></p></td>
 					<td align="left"><p style="padding: 5px;">ภาคปกติ</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">สถานะภาพ :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>สถานะภาพ :</b></p></td>
 					<td align="left"><p style="padding: 5px;">กำลังศึกษา</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">วันเข้าศึกษา :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>วันเข้าศึกษา :</b></p></td>
 					<td align="left"><p style="padding: 5px;">16/07/2559</p></td>
 				</tr>
 			</table>
@@ -32,7 +32,7 @@
 		<div class="col-md-5 col-sm-12" >
 			<table  border="0" width="100%">
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ระดับการศึกษา :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>ระดับการศึกษา :</b></p></td>
 					<td align="left">
 						<p style="padding: 5px;">
 							<?php  echo $this->session->userdata('username')=='ms_user' ? 'ปริญญาโท' : 'ปริญญาเอก' ;?> 
@@ -40,15 +40,19 @@
 					</td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>ชื่อ-สกุล (ภาษาอังกฤษ) :</b></p></td>
 					<td align="left"><p style="padding: 5px;">Somchai Jaidemark</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">คณะ :</p></td>
-					<td align="left"><p style="padding: 5px;">ศึกษาศาสตร์</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>คณะ :</b></p></td>
+					<td align="left"><p style="padding: 5px;">ครุศาสตร์</p></td>
 				</tr>
 				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ภาษาต่างประเทศ :</p></td>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>สาขา/แผนการศึกษา :</b></p></td>
+					<td align="left"><p style="padding: 5px;">ครุศาสตร์</p></td>
+				</tr>
+				<tr>
+					<td align="right" width="50%"><p style="padding: 5px;"><b>ภาษาต่างประเทศ :</b></p></td>
 					<td align="left"><p style="padding: 5px;">ผ่าน</p></td>
 				</tr>
 			</table>

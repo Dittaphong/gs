@@ -125,7 +125,7 @@
 									<a href="<?php echo base_url();?>index.php/student/research/" ><i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
 								</li>
 								<li <?php echo $menuactive=='7' ? 'class="active"':'' ;?>>
-									<a href="<?php echo base_url();?>index.php/student/completions/" ><i class="glyphicon glyphicon-education"></i><span class="text">ขอจบ</span></a>
+									<a href="<?php echo base_url();?>index.php/student/completions/" ><i class="glyphicon glyphicon-education"></i><span class="text">ขอสำเร็จการศึกษา</span></a>
 								</li> 
 							</ul>
 						</nav>
