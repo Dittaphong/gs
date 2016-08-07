@@ -1,60 +1,7 @@
 <?php $this->load->view('/student/Header'); ?>
-
-	<!-- <div class="row" >  
-		<div class="col-md-2 col-sm-4" style="text-align:center;"> 
-			<p style="padding: 10px;">
-				<img alt="" width="100%"  src="<?php echo base_url().'assets/img/profile-studen.png';?>" data-holder-rendered="true" style=" display: block;">
-			</p>
-		</div> 
-		<div class="col-md-5 col-sm-12" >
-			<table border="0" width="100%">
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">รหัส :</p></td>
-					<td align="left"><p style="padding: 5px;">59123435678</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ชื่อ-สกุล (ภาษาไทย) :</p></td>
-					<td align="left"><p style="padding: 5px;">นายสมชาย ใจดีมาก</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">แผนการเรียน :</p></td>
-					<td align="left"><p style="padding: 5px;">ภาคปกติ</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">สถานะภาพ :</p></td>
-					<td align="left"><p style="padding: 5px;">กำลังศึกษา</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">วันเข้าศึกษา :</p></td>
-					<td align="left"><p style="padding: 5px;">16/07/2559</p></td>
-				</tr>
-			</table>
-		</div> 
-		<div class="col-md-5 col-sm-12" >
-			<table  border="0" width="100%">
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ระดับการศึกษา :</p></td>
-					<td align="left"><p style="padding: 5px;">ปริญญาโท</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ชื่อๅสกุล (ภาษาอังกฤษ) :</p></td>
-					<td align="left"><p style="padding: 5px;">Somchai Jaidemark</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">คณะ :</p></td>
-					<td align="left"><p style="padding: 5px;">ศึกษาศาสตร์</p></td>
-				</tr>
-				<tr>
-					<td align="right" width="50%"><p style="padding: 5px;">ภาษาต่างประเทศ :</p></td>
-					<td align="left"><p style="padding: 5px;">ผ่าน</p></td>
-				</tr>
-			</table>
-		</div>
-	</div> --> 
-
 	<div class="row" style="text-align:left;margin-top:1%"> 
 		<div class="col-md-12 col-sm-12 " >
-			<div class="panel panel-default" style="height:280px;padding:5px;"> 
+			<div class="panel panel-default" style="height:<?php echo $param1 == '3' ? '410px;' : '280px;' ; ?>padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ผลงานวิจัย</div>
 				<table class="tb_list"  width="100%" cellpadding="10">
 					<thead>
@@ -94,17 +41,58 @@
 						</tr>
 					</tbody>
 				</table> 
-				<br>  
-				<div class="col-md-12" style="text-align:right;">
-					<button class="btn btn-success  btn-sm">+ เพิ่มงานวิจัย</button> 
+				<br>   
+				<?php if($param1=='3'){ ?>  
+					<div class="col-sm-12" style="margin-top:10px;">
+						<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:8px;">ชื่องานวิจัย (ภาษาไทย)</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control col-md-12" style="height:30px;" name="name_th" value="" required  placeholder="ระบุรหัสนักศึกษา...">
+						</div>
+					</div> 
+					<div class="col-sm-12" style="margin-top:10px;">
+						<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:8px;">ชื่องานวิจัย (ภาษาอังกฤษ)</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control col-md-12" style="height:30px;" name="name_th" value="" required  placeholder="ระบุชื่องานวิจัย...">
+						</div>
+					</div>
+					<div class="col-sm-12" style="margin-top:10px;">
+						<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:8px;">วันที่ส่ง </label>
+						<div class="col-sm-8"> 
+							<div class="form-group">
+				                <div class='input-group date' id='datetimepicker1'>
+				                    <input type='text' class="form-control" />
+				                    <span class="input-group-addon">
+				                        <span class="glyphicon glyphicon-calendar"></span>
+				                    </span>
+				                </div>
+				            </div>
+						</div>
+					</div> 
+					<div class="col-sm-12" style="margin-top:0px;">
+						<label for="address" class="col-md-3 control-label" style="text-align:right;padding-top:8px;"></label>
+						<div class="col-sm-8">
+							<a href="<?php echo base_url();?>index.php/student/research/1/" >
+								<button class="btn btn-success  btn-xs">+ ยืนยันการบันทึกข้อมูล</button> 
+							</a>
+						</div>
+					</div>
+				<?php }  ?> 
+				<?php if($param1=='1' or $param1=='2'){ ?>  
+				<div class="col-md-12" style="text-align:right;margin-top:0px;">
+					<a href="<?php echo base_url();?>index.php/student/research/3/" >
+						<button class="btn btn-success  btn-sm">+ เพิ่มงานวิจัย</button> 
+					</a>
 				</div> 
+				<?php }  ?> 
 			</div>
 		</div> 
 	</div>
 
+			
+
 	<div class="row" style="text-align:left;margin-top:1%"> 
 		<div class="col-md-12 col-sm-12 " >
-			<div class="panel panel-default" style="height:<?php echo $param1 == '1' ? '390px;' : '790px;'; ?>padding:5px;"> 
+			<div class="panel panel-default" style="height:<?php echo $param1 == '2' ? '790px;' : '390px;' ; ?>padding:5px;"> 
 				<div class="panel-heading" ><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp; ค้นหาผลงานวิจัย</div>  
 			<br>  
 			<div class="col-sm-12" style="margin-top:10px;">
@@ -213,7 +201,7 @@
 					    </tbody>
 					</table>
 				</div><br>
-				<div class="col-md-6" > 
+				<div class="col-md-6" >
 					แสดงรายการที่ 1 ถึง 3 จากทั้งหมด 3 รายการ 
 				</div>
 				<div class="col-md-6" style="text-align:right;"> 
