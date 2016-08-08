@@ -7,24 +7,7 @@ class Teacher extends CI_Controller {
 	}
 	public function index()
 	{
-		// $this->data['menuactive']='1';
-		// $this->data['namepage']='HOME';
-		$userName = $this->input->post('userName');
-		$password = $this->input->post('password');
-		if($userName == 'teacher' && $password='teacher'){
-			// redirect('teacher/informationTeacher','refresh');
-			$this->informationTeacher();
-		}else{
-			$this->load->view('/teacher/authen');
-			// $massage = "ข้อมูล ผิดพลาด ! username & password = 'teacher' ";
-			// $url = "/teacher/authen";
-			// $this->alert($massage, $url);
-			// exit();
-			// 	echo "<SCRIPT LANGUAGE='JavaScript'>
-			// 	window.alert('$massage')
-			// 	window.location.href='".site_url($url)."';
-			// </SCRIPT>";
-		}
+		redirect('/teacher/informationTeacher','refresh');
 	}
 	public function informationTeacher()
 	{
@@ -68,7 +51,7 @@ class Teacher extends CI_Controller {
 		$this->data['namepage']='Dashboard';
 		$this->load->view('/teacher/test',$this->data);
 	}
-	
+
 	public function alert($massage, $url)
 	{
 		echo "<meta charset='UTF-8'>

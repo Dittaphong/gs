@@ -25,14 +25,12 @@
 							<label for="userName" class="col-sm-4 control-label">ชื่อเข้าใช้</label>
 							<div class="col-sm-8">
 								<input type="text" class="form-control col-sm-12" id="userName" name="userName" placeholder="teacher" autofocus="true">
-								<p class="help-block">userName : teacher</p>
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="password" class="col-sm-4 control-label">รหัสผ่าน</label>
 							<div class="col-sm-8">
 								<input type="password" class="form-control col-sm-12" id="password" name="password" placeholder="Password">
-								<p class="help-block">passWord : teacher</p>
 							</div>
 						</div>
 						<div class="form-group">

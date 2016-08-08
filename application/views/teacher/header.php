@@ -63,7 +63,7 @@
 													</a>
 												</li>
 												<li>
-													<a href="<?php echo base_url();?>index.php/authen/">
+													<a href="<?php echo base_url();?>index.php/authen/logout/">
 														<i class="fa fa-power-off"></i>
 														<span class="text"> Logout </span>
 													</a>
@@ -113,10 +113,10 @@
 													<a href="<?php echo base_url();?>index.php/teacher/searchJournal/" >
 													<i class="fa fa-th-list fa-fw"></i><span class="text">ค้นหางานวิจัย</span></a>
 												</li>
-												<li <?php echo $menuactive=='6' ? 'class="active"':'' ;?>>
+												<!-- <li <?php echo $menuactive=='6' ? 'class="active"':'' ;?> >
 													<a href="<?php echo base_url();?>index.php/teacher/authen/" >
 													<i class="fa fa-th-list fa-fw"></i><span class="text">Authen</span></a>
-												</li>
+												</li> -->
 												<!-- <li><p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p></li> -->
 											</ul>
 										</nav>
