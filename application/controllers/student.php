@@ -2,6 +2,57 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Student extends CI_Controller {
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->library('tcpdf');
+		date_default_timezone_set('Asia/Bangkok');
+		$now = new DateTime(null, new DateTimeZone('Asia/Bangkok'));
+		$this->dateNow = $now->format('d');
+		$this->mountNow = "";
+		switch ($now->format('m')) {
+			case '01':
+				$this->mountNow .= "มกราคม";
+				break;
+			case '02':
+				$this->mountNow .="กุมภาพันธ์";
+				break;
+			case '03':
+				$this->mountNow .="มีนาคม";
+				break;
+			case '04':
+				$this->mountNow .="เมษายน";
+				break;
+			case '05':
+				$this->mountNow .="พฤศภาคม";
+				break;
+			case '06':
+				$this->mountNow .="มิถุนายน";
+				break;
+			case '07':
+				$this->mountNow .="กรกฎาคม";
+				break;
+			case '08':
+				$this->mountNow .="สิงหาคม";
+				break;
+			case '09':
+				$this->mountNow .="กันยายน";
+				break;
+			case '10':
+				$this->mountNow .="ตุลาคม";
+				break;
+			case '11':
+				$this->mountNow .="พฤศจิกายน";
+				break;
+			case '12':
+				$this->mountNow .="ธันวาคม";
+				break;
+			default:
+				"เกิดข้อผิดพลาด";
+				break;
+		}
+		$this->yearNow = $now->format('Y')+543;
+	}
 
 	public function index()
 	{
@@ -80,6 +131,14 @@ class Student extends CI_Controller {
 		$this->data['param1']=$param1;  
 		$this->data['namepage']='ขอสำเร็จการศึกษา'; 
 		$this->load->view('/student/Completions',$this->data);
+	}
+
+	public function printPdf()
+	{
+		$data['dateNow'] = $this->dateNow;
+		$data['mountNow'] = $this->mountNow;
+		$data['yearNow'] = $this->yearNow;
+		$this->load->view('/student/printpdf',$data);
 	}
 	
 }?>

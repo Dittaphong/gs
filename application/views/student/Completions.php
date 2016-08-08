@@ -111,8 +111,9 @@
 			</div>
 		<?php }else if($param1==2){ ?>
 			<div class="col-md-12 col-sm-12 " style="text-align:right;margin-top:1%;"> 
-				<button type="submit" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-print"></i> Print </button>
-			</div>
+			<?php echo anchor('student/printPdf', 'print', 'class="btn btn-primary btn-xs" i class="glyphicon glyphicon-print" '); ?>
+			<!-- <button type="submit" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-print"></i> Print </button> -->
+		</div>
 			<div class="col-md-12 col-sm-12 " style="text-align:center;margin-top:1%;">
 				<img src="<?php echo base_url();?>assets/img/formcompletions.jpg" style="width:100%;">
 			</div>
