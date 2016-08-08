@@ -51,6 +51,18 @@ class Authen extends CI_Controller {
 				//echo $this->session->userdata('username');
 				redirect('/student/');
 
+			}else if($_POST['username']=='teacher' AND $_POST['password']=='teacher' ){ // Student
+				$now = new DateTime(null, new DateTimeZone('Asia/Bangkok'));
+				$this->data['username']=$_POST['username'];
+				$this->loginSession = array(
+					"username"    => $_POST['username'],
+					"lastLogin"   => $now->format('d/m/Y H:i')
+					);
+				$this->session->set_userdata($this->loginSession);
+
+				//echo $this->session->userdata('username');
+				redirect('/teacher/');
+
 			}else{
 	     		// หากมี Session Login อยู่แล้ว ให้ไปหน้าหลักของ student
 				if($this->session->userdata('username')=='ms_user' OR $this->session->userdata('username')=='pd_user'){
