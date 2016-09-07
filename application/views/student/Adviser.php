@@ -129,7 +129,9 @@
 						</div>
 					</div>   
 					<div class="col-sm-12" style="text-align:center;"><br>
-						<button type="submit" class="btn btn-primary btn-sm">ยื่นขอแต่งตั้งอาจารย์ที่ปรึกษา</button>
+						<a href="<?php echo base_url();?>index.php/student/adviser/2/" >
+							<button type="submit" class="btn btn-primary btn-sm">ยื่นขอแต่งตั้งอาจารย์ที่ปรึกษา</button>
+						</a>
 						<br>
 					</div> 
 				</div>
@@ -139,9 +141,11 @@
 		<div class="row preview" style="text-align:left;margin-top:5%">
 			<div class="col-md-12 col-sm-12 " >
 				<div class="panel panel-default" style="height:1700px;padding:5px;"> 
-					<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา </div>
-					<br>   
-					<div class="col-md-12 col-sm-12 " >  
+					<div class="panel-heading" ><i class="glyphicon glyphicon-book"></i>&nbsp;&nbsp; ขอแต่งตั้งอาจารย์ที่ปรึกษา </div> 
+					<div class="col-md-12 col-sm-12 " style="text-align:right;margin-top:1%;"> 
+						<button type="submit" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-print"></i> Print </button>
+					</div>
+					<div class="col-md-12 col-sm-12 " style="text-align:right;margin-top:1%;">  
 						<img src="<?php echo base_url();?>assets/img/formadviser.jpg" style="width:100%;">
 					
 					</div>
